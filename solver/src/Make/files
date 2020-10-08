@@ -1,0 +1,4 @@
+alphatCV2WallFunction/alphatCV2WallFunctionFvPatchScalarField.C
+nutUCV2WallFunction/nutUCV2WallFunctionFvPatchScalarField.C
+
+LIB = $(FOAM_USER_LIBBIN)/CV2WallFunction

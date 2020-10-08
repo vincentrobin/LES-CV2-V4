@@ -1,0 +1,2 @@
+à faire : récupérer les maillage gmsh, vérifier qu'ils fonctionnent, essayer l'outil de transformation de gmsh à ploymesh de openfoam
+copier et coller polymesh dans preprocess/constant

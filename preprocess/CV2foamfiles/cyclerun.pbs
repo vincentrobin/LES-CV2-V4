@@ -1,0 +1,52 @@
+###!/bin/sh
+
+#PBS -S /bin/bash
+#PBS -q default
+#PBS -N "CV2"
+#PBS -j oe
+#PBS -o "CV2.out"
+#PBS -l select=10:ncpus=20:mpiprocs=20
+#PBS -l walltime=4:00:00
+
+#----------------------------------------------------------
+# get MPI info
+#----------------------------------------------------------
+
+NCPU=`cat $PBS_NODEFILE | wc -l`
+
+#----------------------------------------------------------
+# Output job information
+#----------------------------------------------------------
+echo ------------------------------------------------------
+echo 'Ce job alloue '${NCPU}' cpu(s)'
+echo 'ce job tourne sur le(s) noeud(s): '
+cat $PBS_NODEFILE
+echo ------------------------------------------------------
+echo PBS: qsub tourne sur $PBS_O_HOST
+echo PBS: la queue d\'origine est $PBS_O_QUEUE
+echo PBS: la queue d\'execution est $PBS_QUEUE
+echo PBS: le working directory est $PBS_O_WORKDIR
+echo PBS: l\'identifiant de job est $PBS_JOBID
+echo PBS: le nom du job est $PBS_JOBNAME
+echo PBS: le fichier contenant les noeuds est $PBS_NODEFILE
+echo PBS: le home directory est $PBS_O_HOME
+echo PBS: PATH = $PBS_O_PATH
+echo ------------------------------------------------------
+
+#----------------------------------------------------------
+# Launch job
+#----------------------------------------------------------
+OF_APP=CV2Foam250620
+
+cd ${PBS_O_WORKDIR}
+# RUN CYCLE 
+# Mesh, BC and IC preparation
+topoSet
+changeDictionary
+# Parallel calculation preparation
+decomposePar
+# run
+mpiexec_mpt -np $NCPU $OF_APP -parallel > logfile 2>&1
+# construction of the latest time results required for next phase simulation
+reconstructPar -latestTime
+#

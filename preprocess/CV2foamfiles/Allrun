@@ -1,0 +1,5 @@
+#!/bin/sh
+# Cines Occigen run :
+#sbatch Allrun.slurm
+# Pprime Thor run
+qsub Allrun.pbs

@@ -1,0 +1,7 @@
+#PBS -l select=1:ncpus=20:mpiprocs=1
+#PBS -N resutar
+#PBS -q default
+#PBS -l walltime=1:00:00
+
+cd $PBS_O_WORKDIR
+./tar-run-result.sh

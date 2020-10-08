@@ -1,0 +1,70 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  4.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volVectorField;
+    object      U;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField   uniform (0 0 0);
+
+boundaryField
+{
+    inlet 
+    { 
+      type         flowRateInletVelocity;
+      rho          rho; 
+      massFlowRate csvFile; 
+      massFlowRateCoeffs 
+      { 
+          nHeaderLine         1;              // number of header lines 
+          refColumn           0;              // time column index 
+          componentColumns    (1);            // data column index 
+          separator           ";";            // optional (defaults to ",") 
+          mergeSeparators     no;             // merge multiple separators 
+          fileName            "$FOAM_CASE/system/CV2inoutBC.csv"; 
+       } 
+    } 
+
+    outlet
+    {
+        type       noSlip;
+    }
+
+    wall
+    {
+        type       noSlip;
+    }
+
+    injector1
+    {
+      type         noSlip;
+    }
+
+    injector2
+    {
+      type         noSlip;
+    }
+
+    injector3
+    {
+      type         noSlip;
+    }
+
+    injector4
+    {
+      type         noSlip;
+    }
+}
+
+// ************************************************************************* //

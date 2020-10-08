@@ -1,0 +1,44 @@
+#!/bin/sh
+#
+# SCRIPT TO GENERATE THE RUN DIRECTORY OF THE PHASE OF CV2 TO SIMULATE
+#
+# Number of cycle and phase to simulate. "1": 1 phase of 1 cycle, "All": all phases of all cycles.
+ncycle="All"
+# Time of the initial condition directory to use.
+# This choice defines the phase to simulate when ncycle="1". Keep "0" when ncycle="All".
+inittime="0"
+# Final time of the simulation. One cycle is 0.125 s
+# Set 0.03s  after the inittime for inlet phase
+# Set 0.095s after the inittime for CV-outlet phase  
+endtime="0.030"
+# Setting the name and creation of the run directory
+if [ $ncycle = "All" ];then
+	rundir="../CV2-run-$ncycle"
+	norequiredrun="cyclerun"
+
+elif [ $ncycle = "1" ];then
+	rundir="../CV2-run-$inittime"
+	norequiredrun="Allrun"
+else
+        echo "only 1 phase simulation or all are possible"
+        exit 1
+fi
+echo $rundir
+if [ -d "$rundir" ];then
+        echo "directory  $rundir already exists : to suppress before running a new case"
+        exit 1
+else
+        mkdir $rundir
+fi
+# Copy the files from preprocess directory to run directory
+cp -r CV2foamfiles/* $rundir/.
+cp CV2cyclefiles/CV2inoutBC-$inittime.csv $rundir/system/CV2inoutBC.csv
+cp -r CV2cyclefiles/$inittime $rundir/.
+cp CV2cyclefiles/changeDictionaryDict-$inittime $rundir/system/changeDictionaryDict
+cp CV2cyclefiles/CV2param-$inittime $rundir/constant/CV2param
+# erase the run script that is not required
+rm $rundir/$norequiredrun*
+# change the final time simulation in controlDict file
+ligneori="endTime         0.030;"
+lignenew="endTime         $endtime;"
+sed -i "s/${ligneori}/${lignenew}/" $rundir/system/controlDict

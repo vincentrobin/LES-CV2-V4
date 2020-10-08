@@ -1,0 +1,329 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      changeDictionaryDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+boundary
+{
+        injector1
+        {
+                type patch;
+        }
+        injector2
+        {
+                type patch;
+        }
+        injector3
+        {
+                type patch;
+        }
+        injector4
+        {
+                type patch;
+        }
+	inlet
+	{
+		type patch;
+	}
+	outlet
+	{
+		type wall;
+	}
+}
+alphat
+{
+    boundaryField
+    {
+        outlet
+        {
+        type            compressible::alphatCV2WallFunction;
+        kappa           0.41;
+        kappaT          2.5;
+        E               8.6;
+        }
+        inlet
+        {
+                type            calculated;
+        }
+        injector1
+        {
+                type            calculated;
+        }
+        injector2
+        {
+                type            calculated;
+        }
+        injector3
+        {
+                type            calculated;
+        }
+        injector4
+        {
+                type            calculated;
+        }
+    }
+}
+nut
+{
+    boundaryField
+    {
+        outlet
+        {
+        type            compressible::nutUCV2WallFunction;
+        Cmu             0.09;
+        kappa           0.41;
+        E               8.6;
+        }
+        inlet
+        {
+                type            calculated;
+        }
+        injector1
+        {
+                type            calculated;
+        }
+        injector2
+        {
+                type            calculated;
+        }
+        injector3
+        {
+                type            calculated;
+        }
+        injector4
+        {
+                type            calculated;
+        }
+    }
+}
+scal1
+{
+    internalField   uniform 0;
+
+    boundaryField
+    {
+        inlet
+        {
+        	type            fixedValue;
+        	value           uniform 0;
+        }
+        injector1
+        {
+        	type            fixedValue;
+        	value           uniform 1;
+        }
+        injector2
+        {
+        	type            fixedValue;
+        	value           uniform 1;
+        }
+        injector3
+        {
+        	type            fixedValue;
+        	value           uniform 1;
+        }
+        injector4
+        {
+        	type            fixedValue;
+        	value           uniform 1;
+        }
+    }
+}
+scal2
+{
+    internalField   uniform 0;
+
+    boundaryField
+    {
+        inlet
+        {
+        	type            fixedValue;
+        	value           uniform 0;
+        }
+        injector1
+        {
+        	type            fixedValue;
+        	value           uniform 1;
+        }
+        injector2
+        {
+        	type            fixedValue;
+        	value           uniform 1;
+        }
+        injector3
+        {
+        	type            fixedValue;
+        	value           uniform 1;
+        }
+        injector4
+        {
+        	type            fixedValue;
+        	value           uniform 1;
+        }
+    }
+}
+scal3
+{
+    internalField   uniform 1;
+
+    boundaryField
+    {
+    	inlet
+        {
+        	type            fixedValue;
+        	value           uniform 0;
+        }
+        injector1
+        {
+        	type            fixedValue;
+        	value           uniform 0;
+        }
+        injector2
+        {
+        	type            fixedValue;
+        	value           uniform 0;
+        }
+        injector3
+        {
+        	type            fixedValue;
+        	value           uniform 0;
+        }
+        injector4
+        {
+        	type            fixedValue;
+        	value           uniform 0;
+        }
+    }
+}
+U
+{
+    boundaryField
+    {
+        outlet
+        {
+        	type       noSlip;
+        }
+        inlet
+        {
+        	type            flowRateInletVelocity;
+        	massFlowRate    csvFile;
+        	massFlowRateCoeffs
+        	{
+            		nHeaderLine     1;
+            		refColumn       0;
+            		componentColumns (1);
+            		separator       ";";
+            		mergeSeparators no;
+            		fileName        "$FOAM_CASE/system/CV2inoutBC.csv";
+        	}
+        }
+        injector1
+        {
+                type            flowRateInletVelocity;
+                massFlowRate    csvFile;
+                massFlowRateCoeffs
+                {
+                        nHeaderLine     1;
+                        refColumn       0;
+                        componentColumns (2);
+                        separator       ";";
+                        mergeSeparators no;
+                        fileName        "$FOAM_CASE/system/CV2inoutBC.csv";
+        	}
+        }
+        injector2
+        {
+                type            flowRateInletVelocity;
+                massFlowRate    csvFile;
+                massFlowRateCoeffs
+                {
+                        nHeaderLine     1;
+                        refColumn       0;
+                        componentColumns (2);
+                        separator       ";";
+                        mergeSeparators no;
+                        fileName        "$FOAM_CASE/system/CV2inoutBC.csv";
+                }
+        }
+        injector3
+        {
+                type            flowRateInletVelocity;
+                massFlowRate    csvFile;
+                massFlowRateCoeffs
+                {
+                        nHeaderLine     1;
+                        refColumn       0;
+                        componentColumns (2);
+                        separator       ";";
+                        mergeSeparators no;
+                        fileName        "$FOAM_CASE/system/CV2inoutBC.csv";
+                }
+        }
+        injector4
+        {
+                type            flowRateInletVelocity;
+                massFlowRate    csvFile;
+                massFlowRateCoeffs
+                {
+                        nHeaderLine     1;
+                        refColumn       0;
+                        componentColumns (2);
+                        separator       ";";
+                        mergeSeparators no;
+                        fileName        "$FOAM_CASE/system/CV2inoutBC.csv";
+                }
+        }
+    }
+}
+T
+{
+    boundaryField
+    {
+        inlet
+        {
+        	type            totalTemperature;
+        	gamma           1.4;
+        	T0              uniform 307;
+        }
+        outlet
+        {
+        	type            fixedValue;
+        	value           uniform 307;
+        }
+        injector1
+        {
+                type            totalTemperature;
+                gamma           1.4;
+                T0              uniform 307;
+        }
+        injector2
+        {
+                type            totalTemperature;
+                gamma           1.4;
+                T0              uniform 307;
+        }
+        injector3
+        {
+                type            totalTemperature;
+                gamma           1.4;
+                T0              uniform 307;
+        }
+        injector4
+        {
+                type            totalTemperature;
+                gamma           1.4;
+                T0              uniform 307;
+        }
+    }
+}
+// ************************************************************************* //

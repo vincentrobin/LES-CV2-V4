@@ -1,0 +1,94 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      CV2param;
+}
+//
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+// 1 : Chemical source term parameters
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+//
+// Segregation rate
+Segreg		[0 0 0 0 0 0 0] 0.75;
+//
+// SGS Karlovitz number
+// This parameter gives the value of the
+// progress variable at the leading edge
+Ka		[0 0 0 0 0 0 0] 2.0e-2;
+//
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+// 2 : Spark ignition parameters
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+//
+// Spark time : electric signal
+sparktime	[0 0 1 0 0 0 0] 0.2825; 
+//
+// Characteristic time of the spark chemical rate
+sparkdt		[0 0 1 0 0 0 0] 0.000001;
+//
+// Delay time 
+sparkdelay      [0 0 1 0 0 0 0] 0.009;
+//
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+// 3 : Chemical data tables : Stored as polynomials coefficient 
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+//
+// Extinction limits : non-dimentional mixture fraction variable (xichap)
+// the stoichiometry is allways 0.5 with this variable
+richlimit	[0 0 0 0 0 0 0] 0.55;
+poorlimit	[0 0 0 0 0 0 0] 0.4;
+// maximun of scal3 when creating tables : extinction for larger values
+dilutionlimit       [0 0 0 0 0 0 0] 0.5;
+//
+// Equation 1 : scal2st = a1 scal3 + b1
+// mixture fraction at stoichiometry or max (dH)
+aa1		[0 0 0 0 0 0 0] -0.06651;
+bb1              [0 0 0 0 0 0 0]  0.06318;
+//
+// Equation 2 : DHst = a2 scal3 + b2
+// mixture fraction at stoichiometry or max (dH)
+aa2             [0 2 -2 0 0 0 0] -2510657;
+bb2             [0 2 -2 0 0 0 0]  2670632;
+//
+// Equation 3 : alphast = a3 scal3 + b3
+// mixture fraction at stoichiometry or max (dH)
+aa3             [0 0 -1 0 0 0 0] -1.926e+05;
+bb3             [0 0 -1 0 0 0 0]  5.272e+04;
+cc3             [0 0 -1 0 0 0 0]  1.847e+05;
+dd3             [0 0 -1 0 0 0 0] -1.536e+05;
+ee3             [0 0 -1 0 0 0 0]  3.642e+04;
+
+//
+// Equation 4 : DHadim = a4 scal2adim^6 + b4 scal2adim^5 + ... + g4
+// mixture fraction at stoichiometry or max (dH)
+aa4             [0 0 0 0 0 0 0] -84838;
+bb4             [0 0 0 0 0 0 0]  240664;
+cc4             [0 0 0 0 0 0 0] -278219;
+dd4             [0 0 0 0 0 0 0]  167027;
+ee4             [0 0 0 0 0 0 0] -54588;
+ff4             [0 0 0 0 0 0 0]  9128.1;
+gg4             [0 0 0 0 0 0 0] -600.85;
+//
+// Equation 4 : alphaadim = a5 scal2adim^8 + b4 scal2adim^6 + ... + i5
+aa5             [0 0 0 0 0 0 0] 0;
+bb5             [0 0 0 0 0 0 0] 0;
+cc5             [0 0 0 0 0 0 0] 0;
+dd5             [0 0 0 0 0 0 0] 0;
+ee5             [0 0 0 0 0 0 0] 1542;
+ff5             [0 0 0 0 0 0 0] -3128;
+gg5             [0 0 0 0 0 0 0] 2319;
+hh5             [0 0 0 0 0 0 0] -743;
+ii5             [0 0 0 0 0 0 0] 87.33;
+//
+// ************************************************************************* //
+// ************************************************************************* //

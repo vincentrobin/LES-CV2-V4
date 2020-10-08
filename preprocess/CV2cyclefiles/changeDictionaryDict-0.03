@@ -1,0 +1,148 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      changeDictionaryDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+boundary
+{
+        injector1
+        {
+                type wall;
+        }
+        injector2
+        {
+                type wall;
+        }
+        injector3
+        {
+                type wall;
+        }
+        injector4
+        {
+                type wall;
+        }
+	inlet
+	{
+		type wall;
+	}
+	outlet
+	{
+		type patch;
+	}
+}
+alphat
+{
+    boundaryField
+    {
+        inlet
+        {
+        type            compressible::alphatCV2WallFunction;
+        kappa           0.41;
+        kappaT          2.5;
+        E               8.6;
+        }
+        outlet
+        {
+                type            calculated;
+        }
+    }
+}
+nut
+{
+    boundaryField
+    {
+        inlet
+        {
+        type            compressible::nutUCV2WallFunction;
+        Cmu             0.09;
+        kappa           0.41;
+        E               8.6;
+        }
+        outlet
+        {
+                type            calculated;
+        }
+    }
+}
+scal1
+{
+    boundaryField
+    {
+        inlet
+        {
+		type            zeroGradient;
+        }
+    }
+}
+scal2
+{
+    boundaryField
+    {
+        inlet
+        {
+                type            zeroGradient;
+        }
+    }
+}
+scal3
+{
+    boundaryField
+    {
+        inlet
+        {
+                type            zeroGradient;
+        }
+    }
+}
+U
+{
+    boundaryField
+    {
+        inlet
+        {
+                type            noSlip;
+        }
+        outlet
+        {
+        	type            flowRateInletVelocity;
+        	massFlowRate    csvFile;
+        	massFlowRateCoeffs
+        	{
+            		nHeaderLine     1;
+            		refColumn       0;
+            		componentColumns 1(1);
+            		separator       ";";
+            		mergeSeparators 0;
+            		fileName        "$FOAM_CASE/system/CV2inoutBC.csv";
+        }
+        extrapolateProfile false;
+        value           uniform (0 0 0);
+        }
+    }
+}
+T
+{
+    boundaryField
+    {
+        inlet
+        {
+        type            fixedValue;
+        value           uniform 307;
+        }
+        outlet
+        {
+                type            zeroGradient;
+        }
+    }
+}
+// ************************************************************************* //

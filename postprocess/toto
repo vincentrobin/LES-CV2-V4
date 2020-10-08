@@ -1,0 +1,3099 @@
+Job Id: 1116670.thor
+    Job_Name = JaphyII_234
+    Job_Owner = hbelhaou@thor.ice.univ-poitiers.fr
+    job_state = Q
+    queue = normal
+    server = thor
+    Checkpoint = u
+    ctime = Thu Sep 19 16:36:10 2019
+    Error_Path = thor.ice.univ-poitiers.fr:/home/hbelhaou/scratch/perfThor/pyth
+	on/japhyII_stderr.log
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = hakim.belhaouari@univ-poitiers.fr
+    mtime = Wed Jul 22 06:04:27 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/hbelhaou/scratch/perfThor/pyt
+	hon/japhyII_stdout.log
+    Priority = 0
+    qtime = Fri Sep 20 00:26:13 2019
+    Rerunable = True
+    Resource_List.mem = 64gb
+    Resource_List.mpiprocs = 1
+    Resource_List.ncpus = 128
+    Resource_List.nodect = 1
+    Resource_List.place = free
+    Resource_List.select = 1:ncpus=128:mem=64gb
+    Resource_List.walltime = 08:00:00
+    sandbox = PRIVATE
+    substate = 10
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/hbelhaou,PBS_O_LOGNAME=hbelhaou,
+	PBS_O_WORKDIR=/home/hbelhaou/scratch/perfThor/python,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/opt/sgi/sbin:/opt/sgi/bin:/sw/c
+	odes/python/3.6.4/bin:/opt/intel/impi/5.1/compilers_and_libraries_2016.
+	1.150/linux/bin/intel64:/opt/intel/impi/5.1/compilers_and_libraries_201
+	6.1.150/linux/mpi/intel64/bin:/opt/intel/impi/5.1/debugger_2016/gdb/int
+	el64_mic/bin:/opt/sgi/sbin:/opt/sgi/bin:/home/bmercier/installs/usr/mit
+	suba-0.5.0/dist:/home/bmercier/installs/usr/jdk-12.0.2/bin:/home/bmerci
+	er/installs/usr/bin:/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/u
+	sr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:
+	/sw/pbs/default/bin:/opt/bin/:/home/hbelhaou/bin:/sw/pbs/default/bin:/o
+	pt/bin/:/sw/pbs/default/bin:/opt/bin/:/sw/tools/bin:/sw/pbs/default/bin
+	:/opt/bin/:/sw/tools/bin,PBS_O_MAIL=/var/spool/mail/hbelhaou,
+	PBS_O_QUEUE=default,PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Not Running: Insufficient amount of resource ncpus (R: 128 A: 20 
+	T: 20)
+    etime = Fri Sep 20 00:26:13 2019
+    eligible_time = 7350:17:27
+    Submit_arguments = run_japhyII.pbs
+    estimated.start_time = UNKNOWN
+    project = _pbs_project_default
+
+Job Id: 1226377.thor
+    Job_Name = Final_scale_2cm
+    Job_Owner = colombij@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 348
+    resources_used.cput = 671:44:12
+    resources_used.mem = 1254644kb
+    resources_used.ncpus = 8
+    resources_used.vmem = 2276132kb
+    resources_used.walltime = 206:36:36
+    job_state = R
+    queue = small_long
+    server = thor
+    Checkpoint = u
+    ctime = Mon Jul 13 16:06:03 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/colombij/scratch/Echelle_reell
+	e/Reference/errorJob.txt
+    exec_host = r2i0n3/2*8
+    exec_vnode = (r2i0n3:ncpus=8)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = jeremy.colombiano@efectis.com
+    mtime = Mon Jul 13 16:06:05 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/colombij/scratch/Echelle_reel
+	le/Reference/Final_scale_2cm.o1226377
+    Priority = 0
+    qtime = Mon Jul 13 16:06:03 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 8
+    Resource_List.ncpus = 8
+    Resource_List.nodect = 1
+    Resource_List.place = free
+    Resource_List.select = 1:ncpus=8:mpiprocs=8
+    Resource_List.walltime = 400:00:00
+    stime = Mon Jul 13 16:06:05 2020
+    session_id = 17913
+    sandbox = PRIVATE
+    jobdir = /home/colombij/pbs.1226377.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/colombij,PBS_O_LOGNAME=colombij,
+	PBS_O_WORKDIR=/home/colombij/scratch/Echelle_reelle/Reference,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/sw/codes/python/3.6.4/bin:/sw/lib/metis/5.1.0/gnu/bin:/sw/
+	utils/cmake/bin:/sw/sgi/mpt/mpt-2.12/bin:/opt/intel/impi/5.1/compilers_
+	and_libraries_2016.1.150/linux/bin/intel64:/opt/intel/impi/5.1/compiler
+	s_and_libraries_2016.1.150/linux/mpi/intel64/bin:/opt/intel/impi/5.1/de
+	bugger_2016/gdb/intel64_mic/bin:/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/q
+	t-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:
+	/opt/c3/bin:/sw/pbs/default/bin:/opt/bin/:/sw/tools/bin:/home/colombij/
+	fds/Build:/home/colombij/bin,PBS_O_MAIL=/var/spool/mail/colombij,
+	PBS_O_QUEUE=default,PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Mon Jul 13 at 16:06 on (r2i0n3:ncpus=8)
+    etime = Mon Jul 13 16:06:03 2020
+    run_count = 1
+    eligible_time = 00:00:00
+    Submit_arguments = batch.pbs
+    pset = cputype=v3_2.60GHz
+    project = _pbs_project_default
+
+Job Id: 1227429.thor
+    Job_Name = diffT3
+    Job_Owner = ctrais01@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 1995
+    resources_used.cput = 1890:59:02
+    resources_used.mem = 8734744kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 17131992kb
+    resources_used.walltime = 95:19:26
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Fri Jul 17 14:43:59 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/ctrais01/Caroline/Surface_111/
+	New_maille/Diffusion2/T3_2O4/diffT3.e1227429
+    exec_host = r1i5n17/0*20+r1i5n8/0*20+r2i0n0/0*20+r2i0n1/0*20
+    exec_vnode = (r1i5n17:ncpus=20)+(r1i5n8:ncpus=20)+(r2i0n0:ncpus=20)+(r2i0n1
+	:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Sat Jul 18 07:23:16 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/ctrais01/Caroline/Surface_111
+	/New_maille/Diffusion2/T3_2O4/out
+    Priority = 0
+    qtime = Fri Jul 17 15:34:29 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 96:00:00
+    stime = Sat Jul 18 07:23:15 2020
+    session_id = 12345
+    Shell_Path_List = /bin/bash
+    sandbox = PRIVATE
+    jobdir = /home/ctrais01/pbs.1227429.thor.x8z
+    substate = 42
+    Variable_List = HOSTNAME=thor,PBS_O_HOME=/home/ctrais01,
+	OSCAR_HOME=/opt/oscar,
+	module=() {  eval `/usr/bin/modulecmd bash $*`; },
+	LESSOPEN=|/usr/bin/lesspipe.sh %s,PBS_O_LOGNAME=ctrais01,
+	SSH_CLIENT=193.49.228.178 63547 86,CVS_RSH=ssh,PBS_O_LANG=en_US.UTF-8,
+	USER=ctrais01,QTDIR=/usr/lib64/qt-3.3,
+	PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/
+	bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/defaul
+	t/bin:/opt/bin/:/home/ctrais01/bin,LANG=en_US.UTF-8,
+	QTLIB=/usr/lib64/qt-3.3/lib,TERM=xterm-256color,SHELL=/bin/bash,
+	LANGUAGE=en_US.UTF-8,QTINC=/usr/lib64/qt-3.3/include,
+	G_BROKEN_FILENAMES=1,HISTSIZE=1000,
+	PBS_O_WORKDIR=/home/ctrais01/Caroline/Surface_111/New_maille/Diffusion
+	2/T3_2O4,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/ctrais01/bin,
+	MANPATH=:/opt/c3/man:/opt/sgi/share/man,LOGNAME=ctrais01,
+	HOME=/home/ctrais01,MODULESHOME=/usr/share/Modules,
+	C3_RSH=ssh -oConnectTimeout=10 -oForwardX11=no,PBS_O_SYSTEM=Linux,
+	PBS_O_MAIL=/var/spool/mail/ctrais01,_=/sw/pbs/default/bin/qsub,
+	MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles:/sw/Modules
+	/modulefiles,PBS_O_SHELL=/bin/bash,SSH_TTY=/dev/pts/39,
+	OLDPWD=/home/ctrais01/Caroline/Surface_111/New_maille/Diffusion2/O4T4_
+	2,LOADEDMODULES=,
+	LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38
+	;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5
+	;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;
+	5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15
+	:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lzh=3
+	8;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.zip=38;5;9:*.z=38;5;9:*
+	.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lz=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:
+	*.tbz=38;5;9:*.tbz2=38;5;9:*.bz=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=3
+	8;5;9:*.jar=38;5;9:*.rar=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9
+	:*.7z=38;5;9:*.rz=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.b
+	mp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xb
+	m=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.sv
+	g=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mp
+	g=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.ogm=38;5;13:*.mp
+	4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv
+	=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=
+	38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;
+	5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5
+	;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;
+	45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;
+	45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45
+	:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:,
+	HISTCONTROL=ignoredups,SHLVL=1,
+	PWD=/home/ctrais01/Caroline/Surface_111/New_maille/Diffusion2/T3_2O4,
+	MAIL=/var/spool/mail/ctrais01,
+	SSH_CONNECTION=193.49.228.178 63547 195.220.223.23 86,
+	PBS_O_QUEUE=default,PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Sat Jul 18 at 07:23 on (r1i5n17:ncpus=20)+(r1i5n8:ncpu
+	s=20)+(r2i0n0:ncpus=20)+(r2i0n1:ncpus=20)
+    etime = Fri Jul 17 15:34:29 2020
+    run_count = 1
+    eligible_time = 15:48:45
+    Submit_arguments = run_relax
+    pset = cputype=v3_2.60GHz
+    estimated.exec_vnode = (r1i5n17:ncpus=20)+(r1i5n8:ncpus=20)+(r2i0n0:ncpus=2
+	0)+(r2i0n1:ncpus=20)
+    estimated.start_time = Sat Jul 18 07:21:56 2020
+    project = _pbs_project_default
+
+Job Id: 1227434.thor
+    Job_Name = diffT2
+    Job_Owner = ctrais01@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 1994
+    resources_used.cput = 1880:40:04
+    resources_used.mem = 8733148kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 17129536kb
+    resources_used.walltime = 94:46:38
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Fri Jul 17 14:53:54 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/ctrais01/Caroline/Surface_111/
+	New_maille/Diffusion2/T2_2O3/diffT2.e1227434
+    exec_host = r2i0n6/0*20+r2i0n11/0*20+r2i0n14/0*20+r2i1n2/0*20
+    exec_vnode = (r2i0n6:ncpus=20)+(r2i0n11:ncpus=20)+(r2i0n14:ncpus=20)+(r2i1n
+	2:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Sat Jul 18 07:56:08 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/ctrais01/Caroline/Surface_111
+	/New_maille/Diffusion2/T2_2O3/out
+    Priority = 0
+    qtime = Fri Jul 17 21:20:15 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 96:00:00
+    stime = Sat Jul 18 07:56:07 2020
+    session_id = 926
+    Shell_Path_List = /bin/bash
+    sandbox = PRIVATE
+    jobdir = /home/ctrais01/pbs.1227434.thor.x8z
+    substate = 42
+    Variable_List = HOSTNAME=thor,PBS_O_HOME=/home/ctrais01,
+	OSCAR_HOME=/opt/oscar,
+	module=() {  eval `/usr/bin/modulecmd bash $*`; },
+	LESSOPEN=|/usr/bin/lesspipe.sh %s,PBS_O_LOGNAME=ctrais01,
+	SSH_CLIENT=193.49.228.178 59958 86,CVS_RSH=ssh,PBS_O_LANG=en_US.UTF-8,
+	USER=ctrais01,QTDIR=/usr/lib64/qt-3.3,
+	PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/
+	bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/defaul
+	t/bin:/opt/bin/:/home/ctrais01/bin,LANG=en_US.UTF-8,
+	QTLIB=/usr/lib64/qt-3.3/lib,TERM=xterm-256color,SHELL=/bin/bash,
+	LANGUAGE=en_US.UTF-8,QTINC=/usr/lib64/qt-3.3/include,
+	G_BROKEN_FILENAMES=1,HISTSIZE=1000,
+	PBS_O_WORKDIR=/home/ctrais01/Caroline/Surface_111/New_maille/Diffusion
+	2/T2_2O3,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/ctrais01/bin,
+	MANPATH=:/opt/c3/man:/opt/sgi/share/man,LOGNAME=ctrais01,
+	HOME=/home/ctrais01,MODULESHOME=/usr/share/Modules,
+	C3_RSH=ssh -oConnectTimeout=10 -oForwardX11=no,PBS_O_SYSTEM=Linux,
+	PBS_O_MAIL=/var/spool/mail/ctrais01,_=/sw/pbs/default/bin/qsub,
+	MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles:/sw/Modules
+	/modulefiles,PBS_O_SHELL=/bin/bash,SSH_TTY=/dev/pts/13,
+	OLDPWD=/home/ctrais01/Caroline/Surface_111/New_maille/Diffusion2,
+	LOADEDMODULES=,
+	LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38
+	;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5
+	;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;
+	5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15
+	:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lzh=3
+	8;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.zip=38;5;9:*.z=38;5;9:*
+	.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lz=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:
+	*.tbz=38;5;9:*.tbz2=38;5;9:*.bz=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=3
+	8;5;9:*.jar=38;5;9:*.rar=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9
+	:*.7z=38;5;9:*.rz=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.b
+	mp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xb
+	m=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.sv
+	g=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mp
+	g=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.ogm=38;5;13:*.mp
+	4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv
+	=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=
+	38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;
+	5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5
+	;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;
+	45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;
+	45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45
+	:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:,
+	HISTCONTROL=ignoredups,SHLVL=1,
+	PWD=/home/ctrais01/Caroline/Surface_111/New_maille/Diffusion2/T2_2O3,
+	MAIL=/var/spool/mail/ctrais01,
+	SSH_CONNECTION=193.49.228.178 59958 195.220.223.23 86,
+	PBS_O_QUEUE=default,PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Sat Jul 18 at 07:56 on (r2i0n6:ncpus=20)+(r2i0n11:ncpu
+	s=20)+(r2i0n14:ncpus=20)+(r2i1n2:ncpus=20)
+    etime = Fri Jul 17 21:20:15 2020
+    run_count = 1
+    eligible_time = 10:35:52
+    Submit_arguments = run_relax
+    pset = cputype=v3_2.60GHz
+    estimated.exec_vnode = (r2i0n6:ncpus=20)+(r2i0n11:ncpus=20)+(r2i0n14:ncpus=
+	20)+(r2i1n2:ncpus=20)
+    estimated.start_time = Sat Jul 18 07:54:21 2020
+    project = _pbs_project_default
+
+Job Id: 1227404.thor
+    Job_Name = ZrN-bulk
+    Job_Owner = rmareus@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 12891
+    resources_used.cput = 6975:00:12
+    resources_used.mem = 174094600kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 2738068972kb
+    resources_used.walltime = 87:12:20
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Fri Jul 17 13:36:21 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/rmareus/scratch/HfN_110/Bulk_Z
+	rN_GGA_PBE_U/ZrN-bulk.e1227404
+    exec_host = r1i1n13/0*20+r1i1n14/0*20+r1i1n15/0*20+r1i2n0/0*20
+    exec_vnode = (r1i1n13:ncpus=20)+(r1i1n14:ncpus=20)+(r1i1n15:ncpus=20)+(r1i2
+	n0:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = rubenson.mareus@univ-poitiers.fr
+    mtime = Sat Jul 18 15:30:48 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/rmareus/scratch/HfN_110/Bulk_
+	ZrN_GGA_PBE_U/ZrN-bulk.o1227404
+    Priority = 0
+    qtime = Sat Jul 18 07:23:26 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 96:00:00
+    stime = Sat Jul 18 15:30:47 2020
+    session_id = 32043
+    sandbox = PRIVATE
+    jobdir = /home/rmareus/pbs.1227404.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/rmareus,PBS_O_LOGNAME=rmareus,
+	PBS_O_WORKDIR=/home/rmareus/scratch/HfN_110/Bulk_ZrN_GGA_PBE_U,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/rmareus/bin,
+	PBS_O_MAIL=/var/spool/mail/rmareus,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Sat Jul 18 at 15:30 on (r1i1n13:ncpus=20)+(r1i1n14:ncp
+	us=20)+(r1i1n15:ncpus=20)+(r1i2n0:ncpus=20)
+    etime = Sat Jul 18 07:23:26 2020
+    run_count = 1
+    eligible_time = 08:07:20
+    Submit_arguments = run
+    pset = cputype=v2_2.80GHz
+    estimated.exec_vnode = (r1i0n11:ncpus=20)+(r1i0n12:ncpus=20)+(r1i1n6:ncpus=
+	20)+(r1i1n9:ncpus=20)
+    estimated.start_time = Sun Jul 19 13:34:25 2020
+    project = _pbs_project_default
+
+Job Id: 1227426.thor
+    Job_Name = diffT4O5
+    Job_Owner = ctrais01@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 1994
+    resources_used.cput = 1723:51:07
+    resources_used.mem = 8730444kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 17128556kb
+    resources_used.walltime = 86:58:13
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Fri Jul 17 14:36:06 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/ctrais01/Caroline/Surface_111/
+	New_maille/Diffusion2/T4_2O5/diffT4O5.e1227426
+    exec_host = r2i0n7/0*20+r2i0n10/0*20+r2i1n1/0*20+r2i1n6/0*20
+    exec_vnode = (r2i0n7:ncpus=20)+(r2i0n10:ncpus=20)+(r2i1n1:ncpus=20)+(r2i1n6
+	:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Sat Jul 18 15:45:18 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/ctrais01/Caroline/Surface_111
+	/New_maille/Diffusion2/T4_2O5/out
+    Priority = 0
+    qtime = Sat Jul 18 07:56:22 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 96:00:00
+    stime = Sat Jul 18 15:45:18 2020
+    session_id = 14639
+    Shell_Path_List = /bin/bash
+    sandbox = PRIVATE
+    jobdir = /home/ctrais01/pbs.1227426.thor.x8z
+    substate = 42
+    Variable_List = HOSTNAME=thor,PBS_O_HOME=/home/ctrais01,
+	OSCAR_HOME=/opt/oscar,
+	module=() {  eval `/usr/bin/modulecmd bash $*`; },
+	LESSOPEN=|/usr/bin/lesspipe.sh %s,PBS_O_LOGNAME=ctrais01,
+	SSH_CLIENT=193.49.228.178 63547 86,CVS_RSH=ssh,PBS_O_LANG=en_US.UTF-8,
+	USER=ctrais01,QTDIR=/usr/lib64/qt-3.3,
+	PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/
+	bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/defaul
+	t/bin:/opt/bin/:/home/ctrais01/bin,LANG=en_US.UTF-8,
+	QTLIB=/usr/lib64/qt-3.3/lib,TERM=xterm-256color,SHELL=/bin/bash,
+	LANGUAGE=en_US.UTF-8,QTINC=/usr/lib64/qt-3.3/include,
+	G_BROKEN_FILENAMES=1,HISTSIZE=1000,
+	PBS_O_WORKDIR=/home/ctrais01/Caroline/Surface_111/New_maille/Diffusion
+	2/T4_2O5,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/ctrais01/bin,
+	MANPATH=:/opt/c3/man:/opt/sgi/share/man,LOGNAME=ctrais01,
+	HOME=/home/ctrais01,MODULESHOME=/usr/share/Modules,
+	C3_RSH=ssh -oConnectTimeout=10 -oForwardX11=no,PBS_O_SYSTEM=Linux,
+	PBS_O_MAIL=/var/spool/mail/ctrais01,_=/sw/pbs/default/bin/qsub,
+	MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles:/sw/Modules
+	/modulefiles,PBS_O_SHELL=/bin/bash,SSH_TTY=/dev/pts/39,
+	OLDPWD=/home/ctrais01/Caroline/Surface_111/New_maille/Diffusion2/O1T1_
+	2,LOADEDMODULES=,
+	LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38
+	;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5
+	;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;
+	5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15
+	:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lzh=3
+	8;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.zip=38;5;9:*.z=38;5;9:*
+	.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lz=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:
+	*.tbz=38;5;9:*.tbz2=38;5;9:*.bz=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=3
+	8;5;9:*.jar=38;5;9:*.rar=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9
+	:*.7z=38;5;9:*.rz=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.b
+	mp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xb
+	m=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.sv
+	g=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mp
+	g=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.ogm=38;5;13:*.mp
+	4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv
+	=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=
+	38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;
+	5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5
+	;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;
+	45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;
+	45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45
+	:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:,
+	HISTCONTROL=ignoredups,SHLVL=1,
+	PWD=/home/ctrais01/Caroline/Surface_111/New_maille/Diffusion2/T4_2O5,
+	MAIL=/var/spool/mail/ctrais01,
+	SSH_CONNECTION=193.49.228.178 63547 195.220.223.23 86,
+	PBS_O_QUEUE=default,PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Sat Jul 18 at 15:45 on (r2i0n7:ncpus=20)+(r2i0n10:ncpu
+	s=20)+(r2i1n1:ncpus=20)+(r2i1n6:ncpus=20)
+    etime = Sat Jul 18 07:56:22 2020
+    run_count = 1
+    eligible_time = 07:48:55
+    Submit_arguments = run_relax
+    pset = cputype=v3_2.60GHz
+    estimated.exec_vnode = (r1i1n13:ncpus=20)+(r1i1n14:ncpus=20)+(r1i1n15:ncpus
+	=20)+(r1i2n0:ncpus=20)
+    estimated.start_time = Sun Jul 19 18:00:09 2020
+    project = _pbs_project_default
+
+Job Id: 1227566.thor
+    Job_Name = ZrN-bulk
+    Job_Owner = rmareus@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 13892
+    resources_used.cput = 5390:38:18
+    resources_used.mem = 178504152kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 2743854928kb
+    resources_used.walltime = 67:24:50
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Fri Jul 17 18:05:29 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/rmareus/scratch/HfN_110/Bulk_Z
+	rN_GGA_PBE_T/ZrN-bulk.e1227566
+    exec_host = r1i4n14/0*20+r1i4n15/0*20+r1i5n2/0*20+r1i5n9/0*20
+    exec_vnode = (r1i4n14:ncpus=20)+(r1i4n15:ncpus=20)+(r1i5n2:ncpus=20)+(r1i5n
+	9:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = rubenson.mareus@univ-poitiers.fr
+    mtime = Sun Jul 19 11:18:20 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/rmareus/scratch/HfN_110/Bulk_
+	ZrN_GGA_PBE_T/ZrN-bulk.o1227566
+    Priority = 0
+    qtime = Sat Jul 18 15:26:39 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 96:00:00
+    stime = Sun Jul 19 11:18:19 2020
+    session_id = 1089
+    sandbox = PRIVATE
+    jobdir = /home/rmareus/pbs.1227566.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/rmareus,PBS_O_LOGNAME=rmareus,
+	PBS_O_WORKDIR=/home/rmareus/scratch/HfN_110/Bulk_ZrN_GGA_PBE_T,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/rmareus/bin,
+	PBS_O_MAIL=/var/spool/mail/rmareus,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Sun Jul 19 at 11:18 on (r1i4n14:ncpus=20)+(r1i4n15:ncp
+	us=20)+(r1i5n2:ncpus=20)+(r1i5n9:ncpus=20)
+    etime = Sat Jul 18 15:26:39 2020
+    run_count = 1
+    eligible_time = 19:51:33
+    Submit_arguments = run
+    pset = cputype=v2_2.80GHz
+    estimated.exec_vnode = (r1i4n14:ncpus=20)+(r1i4n15:ncpus=20)+(r1i5n2:ncpus=
+	20)+(r1i5n9:ncpus=20)
+    estimated.start_time = Sun Jul 19 13:34:25 2020
+    project = _pbs_project_default
+
+Job Id: 1227605.thor
+    Job_Name = ZrN-bulk
+    Job_Owner = rmareus@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 12125
+    resources_used.cput = 3697:04:43
+    resources_used.mem = 185797672kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 5382880284kb
+    resources_used.walltime = 46:16:02
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Sat Jul 18 09:08:20 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/rmareus/scratch/HfN_110/Bulk_Z
+	rN_GGA_PBE_N/ZrN-bulk.e1227605
+    exec_host = r1i5n16/0*20+r2i1n0/0*20+r2i1n3/0*20+r2i1n8/0*20
+    exec_vnode = (r1i5n16:ncpus=20)+(r2i1n0:ncpus=20)+(r2i1n3:ncpus=20)+(r2i1n8
+	:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = rubenson.mareus@univ-poitiers.fr
+    mtime = Mon Jul 20 08:27:05 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/rmareus/scratch/HfN_110/Bulk_
+	ZrN_GGA_PBE_N/ZrN-bulk.o1227605
+    Priority = 0
+    qtime = Sun Jul 19 11:18:28 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 96:00:00
+    stime = Mon Jul 20 08:27:05 2020
+    session_id = 18421
+    sandbox = PRIVATE
+    jobdir = /home/rmareus/pbs.1227605.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/rmareus,PBS_O_LOGNAME=rmareus,
+	PBS_O_WORKDIR=/home/rmareus/scratch/HfN_110/Bulk_ZrN_GGA_PBE_N,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/rmareus/bin,
+	PBS_O_MAIL=/var/spool/mail/rmareus,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Mon Jul 20 at 08:27 on (r1i5n16:ncpus=20)+(r2i1n0:ncpu
+	s=20)+(r2i1n3:ncpus=20)+(r2i1n8:ncpus=20)
+    etime = Sun Jul 19 11:18:28 2020
+    run_count = 1
+    eligible_time = 21:08:36
+    Submit_arguments = run
+    pset = cputype=v3_2.60GHz
+    estimated.exec_vnode = (r1i5n16:ncpus=20)+(r2i1n0:ncpus=20)+(r2i1n3:ncpus=2
+	0)+(r2i1n8:ncpus=20)
+    estimated.start_time = Mon Jul 20 08:25:09 2020
+    project = _pbs_project_default
+
+Job Id: 1227667.thor
+    Job_Name = ZrN-bulk
+    Job_Owner = cmastail@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 12856
+    resources_used.cput = 3567:35:32
+    resources_used.mem = 174675128kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 2738087404kb
+    resources_used.walltime = 44:37:28
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Sun Jul 19 09:40:49 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/cmastail/scratch/Rubenson/ZrN_
+	110/Bulk_ZrN_GGA_PBE_R/ZrN-bulk.e1227667
+    exec_host = r1i1n0/0*20+r1i1n1/0*20+r1i1n2/0*20+r1i2n3/0*20
+    exec_vnode = (r1i1n0:ncpus=20)+(r1i1n1:ncpus=20)+(r1i1n2:ncpus=20)+(r1i2n3:
+	ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = rubenson.mareus@univ-poitiers.fr
+    mtime = Mon Jul 20 10:04:44 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/cmastail/scratch/Rubenson/ZrN
+	_110/Bulk_ZrN_GGA_PBE_R/ZrN-bulk.o1227667
+    Priority = 0
+    qtime = Sun Jul 19 13:18:40 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 96:00:00
+    stime = Mon Jul 20 10:04:42 2020
+    session_id = 9850
+    sandbox = PRIVATE
+    jobdir = /home/cmastail/pbs.1227667.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/cmastail,PBS_O_LOGNAME=cmastail,
+	PBS_O_WORKDIR=/home/cmastail/scratch/Rubenson/ZrN_110/Bulk_ZrN_GGA_PBE
+	_R,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/cmastail/bin,
+	PBS_O_MAIL=/var/spool/mail/cmastail,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Mon Jul 20 at 10:04 on (r1i1n0:ncpus=20)+(r1i1n1:ncpus
+	=20)+(r1i1n2:ncpus=20)+(r1i2n3:ncpus=20)
+    etime = Sun Jul 19 13:18:40 2020
+    run_count = 1
+    eligible_time = 20:46:03
+    Submit_arguments = run
+    pset = cputype=v2_2.80GHz
+    estimated.exec_vnode = (r1i1n0:ncpus=20)+(r1i1n1:ncpus=20)+(r1i1n2:ncpus=20
+	)+(r1i2n3:ncpus=20)
+    estimated.start_time = Mon Jul 20 12:35:10 2020
+    project = _pbs_project_default
+
+Job Id: 1227765.thor
+    Job_Name = ZrN-bulk
+    Job_Owner = cmastail@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 11866
+    resources_used.cput = 2849:28:18
+    resources_used.mem = 170998500kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 2738120940kb
+    resources_used.walltime = 35:39:18
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Mon Jul 20 09:45:49 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/cmastail/scratch/Rubenson/ZrN_
+	110/Bulk_ZrN_GGA_PBE_H/ZrN-bulk.e1227765
+    exec_host = r1i4n6/0*20+r1i4n10/0*20+r1i4n11/0*20+r1i7n7/0*20
+    exec_vnode = (r1i4n6:ncpus=20)+(r1i4n10:ncpus=20)+(r1i4n11:ncpus=20)+(r1i7n
+	7:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = rubenson.mareus@univ-poitiers.fr
+    mtime = Mon Jul 20 19:02:27 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/cmastail/scratch/Rubenson/ZrN
+	_110/Bulk_ZrN_GGA_PBE_H/ZrN-bulk.o1227765
+    Priority = 0
+    qtime = Mon Jul 20 09:53:58 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 96:00:00
+    stime = Mon Jul 20 19:02:26 2020
+    session_id = 28345
+    sandbox = PRIVATE
+    jobdir = /home/cmastail/pbs.1227765.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/cmastail,PBS_O_LOGNAME=cmastail,
+	PBS_O_WORKDIR=/home/cmastail/scratch/Rubenson/ZrN_110/Bulk_ZrN_GGA_PBE
+	_H,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/cmastail/bin,
+	PBS_O_MAIL=/var/spool/mail/cmastail,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Mon Jul 20 at 19:02 on (r1i4n6:ncpus=20)+(r1i4n10:ncpu
+	s=20)+(r1i4n11:ncpus=20)+(r1i7n7:ncpus=20)
+    etime = Mon Jul 20 09:53:58 2020
+    run_count = 1
+    eligible_time = 09:08:28
+    Submit_arguments = run
+    pset = cputype=v2_2.80GHz
+    estimated.exec_vnode = (r1i0n14:ncpus=20)+(r1i0n15:ncpus=20)+(r1i1n4:ncpus=
+	20)+(r1i3n3:ncpus=20)
+    estimated.start_time = Mon Jul 20 22:59:24 2020
+    project = _pbs_project_default
+
+Job Id: 1227864.thor
+    Job_Name = SiN1-H
+    Job_Owner = hzhang@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 1998
+    resources_used.cput = 834:09:32
+    resources_used.mem = 8499276kb
+    resources_used.ncpus = 20
+    resources_used.vmem = 17922592kb
+    resources_used.walltime = 41:41:28
+    job_state = R
+    queue = R1168029
+    server = thor
+    Checkpoint = u
+    ctime = Mon Jul 20 13:01:06 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/hzhang/scratch/heng_file/vasp/
+	HCN/vasp-1D-HCN-SCAN/PNAS/12-3d-SG1/opt/SiN1-H.e1227864
+    exec_host = r1i0n0/0*20
+    exec_vnode = (r1i0n0:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Mon Jul 20 13:01:08 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/hzhang/scratch/heng_file/vasp
+	/HCN/vasp-1D-HCN-SCAN/PNAS/12-3d-SG1/opt/SiN1-H.o1227864
+    Priority = 0
+    qtime = Mon Jul 20 13:01:06 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 20
+    Resource_List.ncpus = 20
+    Resource_List.nodect = 1
+    Resource_List.place = free
+    Resource_List.select = 1:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 96:00:00
+    stime = Mon Jul 20 13:01:07 2020
+    session_id = 31843
+    sandbox = PRIVATE
+    jobdir = /home/hzhang/pbs.1227864.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/hzhang,PBS_O_LOGNAME=hzhang,
+	PBS_O_WORKDIR=/home/hzhang/scratch/heng_file/vasp/HCN/vasp-1D-HCN-SCAN
+	/PNAS/12-3d-SG1/opt,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/home/hzhang/scratch/Software/vaspkit.1.10/bin:/home/hzhang
+	/scratch/Software/vaspkit.1.10/bin:/home/hzhang/scratch/Software/Bader/
+	vtstscripts-915:/home/hzhang/scratch/Software/Bader:/home/hzhang/scratc
+	h/Software/Bader/vasptools/scripts:/home/hzhang/scratch/Software/SCPH_S
+	OURCE.V5/src:/home/bhuang/bin/phonopy-1.9.6.2/bin:/home/gfrapper/Softwa
+	re/vasp.5.4.4/bin:/home/gfrapper/Software/VASP-2D/vasp.5.4.4/bin/vasp_s
+	td_2d:/home/bwang/scratch/Source/Matlab2014R/bin:/home/gfrapper/Softwar
+	e/USPEX944:/sw/octave/gnu/3.8.2/bin:/opt/intel/2018/impi/2018.2.199/bin
+	64:/opt/intel/composer_xe_2013_sp1.2.144/bin/intel64:/opt/intel/compose
+	r_xe_2013_sp1.2.144/debugger/gui/intel64:/opt/sgi/sbin:/opt/sgi/bin:/us
+	r/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sb
+	in:/sbin:/opt/c3/bin:/sw/pbs/default/bin:/opt/bin/:/home/hzhang/bin,
+	PBS_O_MAIL=/var/spool/mail/hzhang,PBS_O_QUEUE=R1168029,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Mon Jul 20 at 13:01 on (r1i0n0:ncpus=20)
+    etime = Mon Jul 20 13:01:06 2020
+    reserve_ID = R1168029.thor
+    run_count = 1
+    eligible_time = 00:00:00
+    Submit_arguments = myrun
+    project = _pbs_project_default
+
+Job Id: 1227865.thor
+    Job_Name = Final
+    Job_Owner = colombij@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 276
+    resources_used.cput = 109:29:25
+    resources_used.mem = 1415152kb
+    resources_used.ncpus = 6
+    resources_used.vmem = 2304612kb
+    resources_used.walltime = 41:39:41
+    job_state = R
+    queue = small_long
+    server = thor
+    Checkpoint = u
+    ctime = Mon Jul 20 13:02:59 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/colombij/scratch/Echelle_reell
+	e/Radiant/Mesh_2cm/errorJob.txt
+    exec_host = r2i0n3/0*6
+    exec_vnode = (r2i0n3:ncpus=6)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = jeremy.colombiano@efectis.com
+    mtime = Mon Jul 20 13:03:00 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/colombij/scratch/Echelle_reel
+	le/Radiant/Mesh_2cm/Final.o1227865
+    Priority = 0
+    qtime = Mon Jul 20 13:02:59 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 6
+    Resource_List.ncpus = 6
+    Resource_List.nodect = 1
+    Resource_List.place = free
+    Resource_List.select = 1:ncpus=6:mpiprocs=6
+    Resource_List.walltime = 400:00:00
+    stime = Mon Jul 20 13:03:00 2020
+    session_id = 11767
+    sandbox = PRIVATE
+    jobdir = /home/colombij/pbs.1227865.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/colombij,PBS_O_LOGNAME=colombij,
+	PBS_O_WORKDIR=/home/colombij/scratch/Echelle_reelle/Radiant/Mesh_2cm,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/sw/codes/python/3.6.4/bin:/sw/lib/metis/5.1.0/gnu/bin:/sw/
+	utils/cmake/bin:/sw/sgi/mpt/mpt-2.12/bin:/opt/intel/impi/5.1/compilers_
+	and_libraries_2016.1.150/linux/bin/intel64:/opt/intel/impi/5.1/compiler
+	s_and_libraries_2016.1.150/linux/mpi/intel64/bin:/opt/intel/impi/5.1/de
+	bugger_2016/gdb/intel64_mic/bin:/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/q
+	t-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:
+	/opt/c3/bin:/sw/pbs/default/bin:/opt/bin/:/sw/tools/bin:/home/colombij/
+	fds/Build:/home/colombij/bin,PBS_O_MAIL=/var/spool/mail/colombij,
+	PBS_O_QUEUE=default,PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Mon Jul 20 at 13:02 on (r2i0n3:ncpus=6)
+    etime = Mon Jul 20 13:02:59 2020
+    run_count = 1
+    eligible_time = 00:00:00
+    Submit_arguments = batch.pbs
+    pset = cputype=v3_2.60GHz
+    project = _pbs_project_default
+
+Job Id: 1228063.thor
+    Job_Name = SiN1-H
+    Job_Owner = hzhang@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 1998
+    resources_used.cput = 774:37:38
+    resources_used.mem = 33191944kb
+    resources_used.ncpus = 20
+    resources_used.vmem = 43194856kb
+    resources_used.walltime = 38:44:10
+    job_state = R
+    queue = small_long
+    server = thor
+    Checkpoint = u
+    ctime = Mon Jul 20 15:56:26 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/hzhang/scratch/heng_file/vasp/
+	HCN/vasp-1D-HCN/MCP/2-2/opt/phonon/333/SiN1-H.e1228063
+    exec_host = r1i1n6/0*20
+    exec_vnode = (r1i1n6:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Mon Jul 20 15:59:32 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/hzhang/scratch/heng_file/vasp
+	/HCN/vasp-1D-HCN/MCP/2-2/opt/phonon/333/SiN1-H.o1228063
+    Priority = 0
+    qtime = Mon Jul 20 15:56:26 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 20
+    Resource_List.ncpus = 20
+    Resource_List.nodect = 1
+    Resource_List.place = free
+    Resource_List.select = 1:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 96:00:00
+    stime = Mon Jul 20 15:59:26 2020
+    session_id = 22902
+    sandbox = PRIVATE
+    jobdir = /home/hzhang/pbs.1228063.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/hzhang,PBS_O_LOGNAME=hzhang,
+	PBS_O_WORKDIR=/home/hzhang/scratch/heng_file/vasp/HCN/vasp-1D-HCN/MCP/
+	2-2/opt/phonon/333,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/home/hzhang/scratch/Software/vaspkit.1.10/bin:/home/hzhang
+	/scratch/Software/vaspkit.1.10/bin:/home/hzhang/scratch/Software/Bader/
+	vtstscripts-915:/home/hzhang/scratch/Software/Bader:/home/hzhang/scratc
+	h/Software/Bader/vasptools/scripts:/home/hzhang/scratch/Software/SCPH_S
+	OURCE.V5/src:/home/bhuang/bin/phonopy-1.9.6.2/bin:/home/gfrapper/Softwa
+	re/vasp.5.4.4/bin:/home/gfrapper/Software/VASP-2D/vasp.5.4.4/bin/vasp_s
+	td_2d:/home/bwang/scratch/Source/Matlab2014R/bin:/home/gfrapper/Softwar
+	e/USPEX944:/sw/octave/gnu/3.8.2/bin:/opt/intel/2018/impi/2018.2.199/bin
+	64:/opt/intel/composer_xe_2013_sp1.2.144/bin/intel64:/opt/intel/compose
+	r_xe_2013_sp1.2.144/debugger/gui/intel64:/opt/sgi/sbin:/opt/sgi/bin:/us
+	r/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sb
+	in:/sbin:/opt/c3/bin:/sw/pbs/default/bin:/opt/bin/:/home/hzhang/bin,
+	PBS_O_MAIL=/var/spool/mail/hzhang,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Mon Jul 20 at 15:59 on (r1i1n6:ncpus=20)
+    etime = Mon Jul 20 15:56:26 2020
+    run_count = 1
+    eligible_time = 00:00:00
+    Submit_arguments = myrun
+    pset = cputype=v2_2.80GHz
+    project = _pbs_project_default
+
+Job Id: 1228045.thor
+    Job_Name = METHANE12
+    Job_Owner = lacherar@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 1999
+    resources_used.cput = 762:06:30
+    resources_used.mem = 27364200kb
+    resources_used.ncpus = 40
+    resources_used.vmem = 60243100kb
+    resources_used.walltime = 38:06:04
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Mon Jul 20 15:30:43 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/scratch/lacherar/Wang_smkpoint/METH
+	ANE/errorJob.txt
+    exec_host = r1i6n3/0*20+r1i7n11/0*20
+    exec_vnode = (r1i6n3:ncpus=20)+(r1i7n11:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = lahna.acherar@ensma.fr
+    mtime = Mon Jul 20 16:37:21 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/scratch/lacherar/Wang_smkpoint/MET
+	HANE/METHANE12.o1228045
+    Priority = 0
+    qtime = Mon Jul 20 16:17:08 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 40
+    Resource_List.ncpus = 40
+    Resource_List.nodect = 2
+    Resource_List.place = free
+    Resource_List.select = 2:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 48:00:00
+    stime = Mon Jul 20 16:37:21 2020
+    session_id = 12451
+    sandbox = PRIVATE
+    jobdir = /home/lacherar/pbs.1228045.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/lacherar,PBS_O_LOGNAME=lacherar,
+	PBS_O_WORKDIR=/scratch/lacherar/Wang_smkpoint/METHANE,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/intel/impi/5.1/impi/5.1.0.079/bin64:/opt/intel/itac/8.
+	1.4/bin:/opt/intel/composer_xe_2015.3.187/bin/intel64:/opt/intel/compos
+	er_xe_2015.3.187/debugger/gui/intel64:/opt/sgi/sbin:/opt/sgi/bin:/usr/l
+	ib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:
+	/sbin:/opt/c3/bin:/sw/pbs/default/bin:/opt/bin/:/home/lacherar/bin,
+	PBS_O_MAIL=/var/spool/mail/lacherar,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Mon Jul 20 at 16:37 on (r1i6n3:ncpus=20)+(r1i7n11:ncpu
+	s=20)
+    etime = Mon Jul 20 16:17:08 2020
+    run_count = 1
+    eligible_time = 00:20:12
+    Submit_arguments = batch.pbs
+    pset = cputype=v2_2.80GHz
+    project = _pbs_project_default
+
+Job Id: 1227770.thor
+    Job_Name = ZrN-bulk
+    Job_Owner = cmastail@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 9835
+    resources_used.cput = 2276:57:28
+    resources_used.mem = 170971612kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 2738168372kb
+    resources_used.walltime = 28:29:46
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Mon Jul 20 09:50:30 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/cmastail/scratch/Rubenson/ZrN_
+	110/Bulk_ZrN_GGA_PBE_Y/ZrN-bulk.e1227770
+    exec_host = r1i3n12/0*20+r1i5n4/0*20+r1i5n5/0*20+r1i7n4/0*20
+    exec_vnode = (r1i3n12:ncpus=20)+(r1i5n4:ncpus=20)+(r1i5n5:ncpus=20)+(r1i7n4
+	:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = rubenson.mareus@univ-poitiers.fr
+    mtime = Tue Jul 21 02:13:39 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/cmastail/scratch/Rubenson/ZrN
+	_110/Bulk_ZrN_GGA_PBE_Y/ZrN-bulk.o1227770
+    Priority = 0
+    qtime = Mon Jul 20 17:24:35 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 96:00:00
+    stime = Tue Jul 21 02:13:39 2020
+    session_id = 28355
+    sandbox = PRIVATE
+    jobdir = /home/cmastail/pbs.1227770.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/cmastail,PBS_O_LOGNAME=cmastail,
+	PBS_O_WORKDIR=/home/cmastail/scratch/Rubenson/ZrN_110/Bulk_ZrN_GGA_PBE
+	_Y,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/cmastail/bin,
+	PBS_O_MAIL=/var/spool/mail/cmastail,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 02:13 on (r1i3n12:ncpus=20)+(r1i5n4:ncpu
+	s=20)+(r1i5n5:ncpus=20)+(r1i7n4:ncpus=20)
+    etime = Mon Jul 20 17:24:35 2020
+    run_count = 1
+    eligible_time = 08:49:03
+    Submit_arguments = run
+    pset = cputype=v2_2.80GHz
+    estimated.exec_vnode = (r1i2n15:ncpus=20)+(r1i3n10:ncpus=20)+(r1i3n13:ncpus
+	=20)+(r1i3n12:ncpus=20)
+    estimated.start_time = Tue Jul 21 02:07:33 2020
+    project = _pbs_project_default
+
+Job Id: 1227789.thor
+    Job_Name = ZrN-bulk
+    Job_Owner = cmastail@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 13743
+    resources_used.cput = 2219:40:37
+    resources_used.mem = 113327312kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 2712421204kb
+    resources_used.walltime = 27:46:06
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Mon Jul 20 10:28:47 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/cmastail/scratch/Rubenson/ZrN_
+	110/Bulk_ZrN_GGA_PBE_X/ZrN-bulk.e1227789
+    exec_host = r1i1n10/0*20+r1i2n4/0*20+r1i2n15/0*20+r1i3n10/0*20
+    exec_vnode = (r1i1n10:ncpus=20)+(r1i2n4:ncpus=20)+(r1i2n15:ncpus=20)+(r1i3n
+	10:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = rubenson.mareus@univ-poitiers.fr
+    mtime = Tue Jul 21 02:57:07 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/cmastail/scratch/Rubenson/ZrN
+	_110/Bulk_ZrN_GGA_PBE_X/ZrN-bulk.o1227789
+    Priority = 0
+    qtime = Mon Jul 20 19:02:25 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 96:00:00
+    stime = Tue Jul 21 02:57:05 2020
+    session_id = 849
+    sandbox = PRIVATE
+    jobdir = /home/cmastail/pbs.1227789.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/cmastail,PBS_O_LOGNAME=cmastail,
+	PBS_O_WORKDIR=/home/cmastail/scratch/Rubenson/ZrN_110/Bulk_ZrN_GGA_PBE
+	_X,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/cmastail/bin,
+	PBS_O_MAIL=/var/spool/mail/cmastail,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 02:57 on (r1i1n10:ncpus=20)+(r1i2n4:ncpu
+	s=20)+(r1i2n15:ncpus=20)+(r1i3n10:ncpus=20)
+    etime = Mon Jul 20 19:02:25 2020
+    run_count = 1
+    eligible_time = 07:54:40
+    Submit_arguments = run
+    pset = cputype=v2_2.80GHz
+    estimated.exec_vnode = (r1i1n10:ncpus=20)+(r1i4n0:ncpus=20)+(r1i4n1:ncpus=2
+	0)+(r1i4n2:ncpus=20)
+    estimated.start_time = Tue Jul 21 02:55:33 2020
+    project = _pbs_project_default
+
+Job Id: 1227807.thor
+    Job_Name = BH_14K
+    Job_Owner = ctrais01@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 1996
+    resources_used.cput = 488:21:37
+    resources_used.mem = 16880208kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 25288140kb
+    resources_used.walltime = 24:26:51
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Mon Jul 20 10:55:17 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/ctrais01/Caroline/Surface_111/
+	SPC323/BH_14K.e1227807
+    exec_host = r2i0n13/0*20+r2i0n15/0*20+r2i0n17/0*20+r2i1n4/0*20
+    exec_vnode = (r2i0n13:ncpus=20)+(r2i0n15:ncpus=20)+(r2i0n17:ncpus=20)+(r2i1
+	n4:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Tue Jul 21 06:16:14 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/ctrais01/Caroline/Surface_111
+	/SPC323/out
+    Priority = 0
+    qtime = Tue Jul 21 02:57:30 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 96:00:00
+    stime = Tue Jul 21 06:16:12 2020
+    session_id = 32082
+    Shell_Path_List = /bin/bash
+    sandbox = PRIVATE
+    jobdir = /home/ctrais01/pbs.1227807.thor.x8z
+    substate = 42
+    Variable_List = HOSTNAME=thor,PBS_O_HOME=/home/ctrais01,
+	OSCAR_HOME=/opt/oscar,
+	module=() {  eval `/usr/bin/modulecmd bash $*`; },
+	LESSOPEN=|/usr/bin/lesspipe.sh %s,PBS_O_LOGNAME=ctrais01,
+	SSH_CLIENT=193.49.228.178 50835 86,CVS_RSH=ssh,PBS_O_LANG=en_US.UTF-8,
+	USER=ctrais01,QTDIR=/usr/lib64/qt-3.3,
+	PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/
+	bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/defaul
+	t/bin:/opt/bin/:/home/ctrais01/bin,LANG=en_US.UTF-8,
+	QTLIB=/usr/lib64/qt-3.3/lib,TERM=xterm-256color,SHELL=/bin/bash,
+	LANGUAGE=en_US.UTF-8,QTINC=/usr/lib64/qt-3.3/include,
+	G_BROKEN_FILENAMES=1,HISTSIZE=1000,
+	PBS_O_WORKDIR=/home/ctrais01/Caroline/Surface_111/SPC323,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/ctrais01/bin,
+	MANPATH=:/opt/c3/man:/opt/sgi/share/man,LOGNAME=ctrais01,
+	HOME=/home/ctrais01,MODULESHOME=/usr/share/Modules,
+	C3_RSH=ssh -oConnectTimeout=10 -oForwardX11=no,PBS_O_SYSTEM=Linux,
+	PBS_O_MAIL=/var/spool/mail/ctrais01,_=/sw/pbs/default/bin/qsub,
+	MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles:/sw/Modules
+	/modulefiles,PBS_O_SHELL=/bin/bash,SSH_TTY=/dev/pts/38,
+	OLDPWD=/home/ctrais01,LOADEDMODULES=,
+	LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38
+	;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5
+	;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;
+	5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15
+	:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lzh=3
+	8;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.zip=38;5;9:*.z=38;5;9:*
+	.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lz=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:
+	*.tbz=38;5;9:*.tbz2=38;5;9:*.bz=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=3
+	8;5;9:*.jar=38;5;9:*.rar=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9
+	:*.7z=38;5;9:*.rz=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.b
+	mp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xb
+	m=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.sv
+	g=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mp
+	g=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.ogm=38;5;13:*.mp
+	4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv
+	=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=
+	38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;
+	5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5
+	;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;
+	45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;
+	45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45
+	:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:,
+	HISTCONTROL=ignoredups,SHLVL=1,
+	PWD=/home/ctrais01/Caroline/Surface_111/SPC323,
+	MAIL=/var/spool/mail/ctrais01,
+	SSH_CONNECTION=193.49.228.178 50835 195.220.223.23 86,
+	PBS_O_QUEUE=default,PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 06:16 on (r2i0n13:ncpus=20)+(r2i0n15:ncp
+	us=20)+(r2i0n17:ncpus=20)+(r2i1n4:ncpus=20)
+    etime = Tue Jul 21 02:57:30 2020
+    run_count = 1
+    eligible_time = 03:18:41
+    Submit_arguments = run_relax
+    pset = cputype=v3_2.60GHz
+    estimated.exec_vnode = (r2i0n13:ncpus=20)+(r2i0n15:ncpus=20)+(r2i0n17:ncpus
+	=20)+(r2i1n4:ncpus=20)
+    estimated.start_time = Tue Jul 21 06:14:24 2020
+    project = _pbs_project_default
+
+Job Id: 1227809.thor
+    Job_Name = s-3_14K
+    Job_Owner = ctrais01@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 1999
+    resources_used.cput = 464:28:12
+    resources_used.mem = 17819764kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 26488836kb
+    resources_used.walltime = 23:13:04
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Mon Jul 20 10:58:27 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/ctrais01/Caroline/Surface_111/
+	SPC323/s-3_14K.e1227809
+    exec_host = r1i4n4/0*20+r1i4n9/0*20+r1i5n0/0*20+r1i5n1/0*20
+    exec_vnode = (r1i4n4:ncpus=20)+(r1i4n9:ncpus=20)+(r1i5n0:ncpus=20)+(r1i5n1:
+	ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Tue Jul 21 07:29:37 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/ctrais01/Caroline/Surface_111
+	/SPC323/out
+    Priority = 0
+    qtime = Tue Jul 21 04:36:07 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 96:00:00
+    stime = Tue Jul 21 07:29:37 2020
+    session_id = 7265
+    Shell_Path_List = /bin/bash
+    sandbox = PRIVATE
+    jobdir = /home/ctrais01/pbs.1227809.thor.x8z
+    substate = 42
+    Variable_List = HOSTNAME=thor,PBS_O_HOME=/home/ctrais01,
+	OSCAR_HOME=/opt/oscar,
+	module=() {  eval `/usr/bin/modulecmd bash $*`; },
+	LESSOPEN=|/usr/bin/lesspipe.sh %s,PBS_O_LOGNAME=ctrais01,
+	SSH_CLIENT=193.49.228.178 50835 86,CVS_RSH=ssh,PBS_O_LANG=en_US.UTF-8,
+	USER=ctrais01,QTDIR=/usr/lib64/qt-3.3,
+	PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/
+	bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/defaul
+	t/bin:/opt/bin/:/home/ctrais01/bin,LANG=en_US.UTF-8,
+	QTLIB=/usr/lib64/qt-3.3/lib,TERM=xterm-256color,SHELL=/bin/bash,
+	LANGUAGE=en_US.UTF-8,QTINC=/usr/lib64/qt-3.3/include,
+	G_BROKEN_FILENAMES=1,HISTSIZE=1000,
+	PBS_O_WORKDIR=/home/ctrais01/Caroline/Surface_111/SPC323,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/ctrais01/bin,
+	MANPATH=:/opt/c3/man:/opt/sgi/share/man,LOGNAME=ctrais01,
+	HOME=/home/ctrais01,MODULESHOME=/usr/share/Modules,
+	C3_RSH=ssh -oConnectTimeout=10 -oForwardX11=no,PBS_O_SYSTEM=Linux,
+	PBS_O_MAIL=/var/spool/mail/ctrais01,_=/sw/pbs/default/bin/qsub,
+	MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles:/sw/Modules
+	/modulefiles,PBS_O_SHELL=/bin/bash,SSH_TTY=/dev/pts/38,
+	OLDPWD=/home/ctrais01,LOADEDMODULES=,
+	LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38
+	;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5
+	;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;
+	5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15
+	:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lzh=3
+	8;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.zip=38;5;9:*.z=38;5;9:*
+	.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lz=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:
+	*.tbz=38;5;9:*.tbz2=38;5;9:*.bz=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=3
+	8;5;9:*.jar=38;5;9:*.rar=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9
+	:*.7z=38;5;9:*.rz=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.b
+	mp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xb
+	m=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.sv
+	g=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mp
+	g=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.ogm=38;5;13:*.mp
+	4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv
+	=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=
+	38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;
+	5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5
+	;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;
+	45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;
+	45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45
+	:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:,
+	HISTCONTROL=ignoredups,SHLVL=1,
+	PWD=/home/ctrais01/Caroline/Surface_111/SPC323,
+	MAIL=/var/spool/mail/ctrais01,
+	SSH_CONNECTION=193.49.228.178 50835 195.220.223.23 86,
+	PBS_O_QUEUE=default,PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 07:29 on (r1i4n4:ncpus=20)+(r1i4n9:ncpus
+	=20)+(r1i5n0:ncpus=20)+(r1i5n1:ncpus=20)
+    etime = Tue Jul 21 04:36:07 2020
+    run_count = 1
+    eligible_time = 02:53:30
+    Submit_arguments = run_relax
+    pset = cputype=v2_2.80GHz
+    estimated.exec_vnode = (r1i4n4:ncpus=20)+(r1i4n9:ncpus=20)+(r1i5n0:ncpus=20
+	)+(r1i5n1:ncpus=20)
+    estimated.start_time = Tue Jul 21 07:27:44 2020
+    project = _pbs_project_default
+
+Job Id: 1228157.thor
+    Job_Name = ZrN-bulk
+    Job_Owner = cmastail@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 10344
+    resources_used.cput = 1543:23:33
+    resources_used.mem = 109317516kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 2712310468kb
+    resources_used.walltime = 19:19:59
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Mon Jul 20 19:38:14 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/cmastail/scratch/Rubenson/ZrN_
+	110/Bulk_ZrN_GGA_PBE_A/ZrN-bulk.e1228157
+    exec_host = r1i2n1/0*20+r1i5n14/0*20+r1i6n0/0*20+r1i6n11/0*20
+    exec_vnode = (r1i2n1:ncpus=20)+(r1i5n14:ncpus=20)+(r1i6n0:ncpus=20)+(r1i6n1
+	1:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = rubenson.mareus@univ-poitiers.fr
+    mtime = Tue Jul 21 11:22:16 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/cmastail/scratch/Rubenson/ZrN
+	_110/Bulk_ZrN_GGA_PBE_A/ZrN-bulk.o1228157
+    Priority = 0
+    qtime = Tue Jul 21 06:16:16 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 96:00:00
+    stime = Tue Jul 21 11:22:16 2020
+    session_id = 24399
+    sandbox = PRIVATE
+    jobdir = /home/cmastail/pbs.1228157.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/cmastail,PBS_O_LOGNAME=cmastail,
+	PBS_O_WORKDIR=/home/cmastail/scratch/Rubenson/ZrN_110/Bulk_ZrN_GGA_PBE
+	_A,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/cmastail/bin,
+	PBS_O_MAIL=/var/spool/mail/cmastail,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 11:22 on (r1i2n1:ncpus=20)+(r1i5n14:ncpu
+	s=20)+(r1i6n0:ncpus=20)+(r1i6n11:ncpus=20)
+    etime = Tue Jul 21 06:16:16 2020
+    run_count = 1
+    eligible_time = 05:05:57
+    Submit_arguments = run
+    pset = cputype=v2_2.80GHz
+    estimated.exec_vnode = (r1i0n12:ncpus=20)+(r1i3n0:ncpus=20)+(r1i6n11:ncpus=
+	20)+(r1i7n0:ncpus=20)
+    estimated.start_time = Tue Jul 21 16:17:08 2020
+    project = _pbs_project_default
+
+Job Id: 1228250.thor
+    Job_Name = 130_3
+    Job_Owner = bdazas01@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 8618
+    resources_used.cput = 1011:33:21
+    resources_used.mem = 4003816kb
+    resources_used.ncpus = 60
+    resources_used.vmem = 2728112320kb
+    resources_used.walltime = 16:52:57
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 09:04:41 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/bdazas01/scratch/130/_3/errorJ
+	ob.txt
+    exec_host = r1i0n4/0*20+r1i0n9/0*20+r1i7n14/0*20
+    exec_vnode = (r1i0n4:ncpus=20)+(r1i0n9:ncpus=20)+(r1i7n14:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = baptiste.dazas@univ-poitiers.fr
+    mtime = Tue Jul 21 13:49:44 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/bdazas01/scratch/130/_3/Na_Po
+	rE_92A_.txt
+    Priority = 0
+    qtime = Tue Jul 21 09:04:42 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 60
+    Resource_List.ncpus = 60
+    Resource_List.nodect = 3
+    Resource_List.place = free
+    Resource_List.select = 3:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 46:00:00
+    stime = Tue Jul 21 13:49:44 2020
+    session_id = 29126
+    Shell_Path_List = /bin/bash
+    sandbox = PRIVATE
+    jobdir = /home/bdazas01/pbs.1228250.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/bdazas01,PBS_O_LOGNAME=bdazas01,
+	PBS_O_WORKDIR=/home/bdazas01/scratch/130/_3,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/bdazas01/bin,
+	PBS_O_MAIL=/var/spool/mail/bdazas01,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 13:49 on (r1i0n4:ncpus=20)+(r1i0n9:ncpus
+	=20)+(r1i7n14:ncpus=20)
+    etime = Tue Jul 21 09:04:42 2020
+    run_count = 1
+    eligible_time = 04:45:02
+    Submit_arguments = Launcher
+    pset = cputype=v2_2.80GHz
+    estimated.exec_vnode = (r2i0n12:ncpus=20)+(r2i1n5:ncpus=20)+(r2i1n7:ncpus=2
+	0)
+    estimated.start_time = Tue Jul 21 16:17:08 2020
+    project = _pbs_project_default
+
+Job Id: 1228309.thor
+    Job_Name = 50kW
+    Job_Owner = bbatio01@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 98
+    resources_used.cput = 20:05:02
+    resources_used.mem = 147320kb
+    resources_used.ncpus = 1
+    resources_used.vmem = 539360kb
+    resources_used.walltime = 20:05:21
+    job_state = R
+    queue = small_long
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 10:37:18 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/bbatio01/scratch/Cone/ref/50/e
+	rrorJob.txt
+    exec_host = r2i0n3/1
+    exec_vnode = (r2i0n3:ncpus=1)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = jeremy.colombiano@efectis.com
+    mtime = Tue Jul 21 10:37:20 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/bbatio01/scratch/Cone/ref/50/
+	50kW.o1228309
+    Priority = 0
+    qtime = Tue Jul 21 10:37:18 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 1
+    Resource_List.ncpus = 1
+    Resource_List.nodect = 1
+    Resource_List.place = free
+    Resource_List.select = 1:ncpus=1:mpiprocs=1
+    Resource_List.walltime = 50:00:00
+    stime = Tue Jul 21 10:37:20 2020
+    session_id = 26629
+    sandbox = PRIVATE
+    jobdir = /home/bbatio01/pbs.1228309.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/bbatio01,PBS_O_LOGNAME=bbatio01,
+	PBS_O_WORKDIR=/home/bbatio01/scratch/Cone/ref/50,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/bbatio01/bin,
+	PBS_O_MAIL=/var/spool/mail/bbatio01,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 10:37 on (r2i0n3:ncpus=1)
+    etime = Tue Jul 21 10:37:18 2020
+    run_count = 1
+    eligible_time = 00:00:00
+    Submit_arguments = batch.pbs
+    pset = cputype=v3_2.60GHz
+    project = _pbs_project_default
+
+Job Id: 1228318.thor
+    Job_Name = HfN-bulk
+    Job_Owner = rmareus@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 11027
+    resources_used.cput = 1192:25:52
+    resources_used.mem = 99295072kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 2709256480kb
+    resources_used.walltime = 14:55:46
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 10:59:30 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/rmareus/scratch/HfN_110/Bulk_H
+	fN_GGA_PBE_J/HfN-bulk.e1228318
+    exec_host = r1i4n3/0*20+r1i4n5/0*20+r1i5n6/0*20+r1i5n12/0*20
+    exec_vnode = (r1i4n3:ncpus=20)+(r1i4n5:ncpus=20)+(r1i5n6:ncpus=20)+(r1i5n12
+	:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = rubenson.mareus@univ-poitiers.fr
+    mtime = Tue Jul 21 15:47:18 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/rmareus/scratch/HfN_110/Bulk_
+	HfN_GGA_PBE_J/HfN-bulk.o1228318
+    Priority = 0
+    qtime = Tue Jul 21 11:08:08 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 96:00:00
+    stime = Tue Jul 21 15:47:18 2020
+    session_id = 10709
+    sandbox = PRIVATE
+    jobdir = /home/rmareus/pbs.1228318.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/rmareus,PBS_O_LOGNAME=rmareus,
+	PBS_O_WORKDIR=/home/rmareus/scratch/HfN_110/Bulk_HfN_GGA_PBE_J,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/rmareus/bin,
+	PBS_O_MAIL=/var/spool/mail/rmareus,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 15:47 on (r1i4n3:ncpus=20)+(r1i4n5:ncpus
+	=20)+(r1i5n6:ncpus=20)+(r1i5n12:ncpus=20)
+    etime = Tue Jul 21 11:08:08 2020
+    run_count = 1
+    eligible_time = 04:39:08
+    Submit_arguments = run
+    pset = cputype=v2_2.80GHz
+    estimated.exec_vnode = (r1i0n12:ncpus=20)+(r1i2n12:ncpus=20)+(r1i2n14:ncpus
+	=20)+(r1i3n0:ncpus=20)
+    estimated.start_time = Tue Jul 21 16:17:08 2020
+    project = _pbs_project_default
+
+Job Id: 1228344.thor
+    Job_Name = BETA_E10
+    Job_Owner = panellam@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 1765
+    resources_used.cput = 86:20:59
+    resources_used.mem = 53832156kb
+    resources_used.ncpus = 200
+    resources_used.vmem = 61706824kb
+    resources_used.walltime = 15:03:36
+    job_state = R
+    queue = medium
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 11:37:36 2020
+    depend = beforeany:1228345.thor@thor.ice.univ-poitiers.fr
+    Error_Path = thor.ice.univ-poitiers.fr:/home/panellam/scratch/grad/micro_7m
+	m/micro_degrad_1_4/relax_z/BETA_E10.e1228344
+    exec_host = r1i0n5/0*20+r1i0n2/0*20+r1i0n7/0*20+r1i0n8/0*20+r1i0n14/0*20+r1
+	i2n14/0*20+r1i3n13/0*20+r1i4n0/0*20+r1i4n1/0*20+r1i4n2/0*20
+    exec_vnode = (r1i0n5:ncpus=20)+(r1i0n2:ncpus=20)+(r1i0n7:ncpus=20)+(r1i0n8:
+	ncpus=20)+(r1i0n14:ncpus=20)+(r1i2n14:ncpus=20)+(r1i3n13:ncpus=20)+(r1i
+	4n0:ncpus=20)+(r1i4n1:ncpus=20)+(r1i4n2:ncpus=20)
+    Hold_Types = n
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = marco.panella@ensma.fr
+    mtime = Tue Jul 21 15:39:22 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/panellam/scratch/grad/micro_7
+	mm/micro_degrad_1_4/relax_z/BETA_E10.o1228344
+    Priority = 0
+    qtime = Tue Jul 21 11:37:36 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 200
+    Resource_List.ncpus = 200
+    Resource_List.nodect = 10
+    Resource_List.place = scatter:excl
+    Resource_List.select = 10:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 30:00:00
+    stime = Tue Jul 21 15:39:20 2020
+    session_id = 14456
+    sandbox = PRIVATE
+    jobdir = /home/panellam/pbs.1228344.thor.x8z
+    substate = 42
+    Variable_List = HISTTIMEFORMAT=[%F %T],
+	LOADEDMODULES=intel-cc-14/14.0.2.144:intel-fc-14/14.0.2.144:intel-comp
+	ilers-14/14.0.2.144:intel-cmkl-14/14.0.2.144:intel-tools-14/14.0.2.144,
+	INTEL_LICENSE_FILE=/opt/intel/licenses/license.lic:/opt/intel/licenses
+	,PBS_O_HOME=/home/panellam,OSCAR_HOME=/opt/oscar,
+	module=() {  eval `/usr/bin/modulecmd bash $*`; },
+	LESSOPEN=|/usr/bin/lesspipe.sh %s,PBS_O_LOGNAME=panellam,
+	SSH_CLIENT=82.239.88.235 49577 86,
+	CPATH=/opt/intel/composer_xe_2013_sp1.2.144/mkl/include,
+	PBS_O_LANG=en_US.UTF-8,USER=panellam,
+	PATH=/opt/intel/composer_xe_2013_sp1.2.144/bin/intel64:/opt/intel/comp
+	oser_xe_2013_sp1.2.144/debugger/gui/intel64:/sw/utils/git/bin:/opt/sgi/
+	sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/u
+	sr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/default/bin:/opt/bin/
+	:/home/panellam/bin:/sw/abaqus/Commands:/opt/cmake/2.8.12/bin:/sw/tools
+	/bin,QTDIR=/usr/lib64/qt-3.3,
+	LD_LIBRARY_PATH=/opt/intel/composer_xe_2013_sp1.2.144/mkl/lib/mic:/opt
+	/intel/composer_xe_2013_sp1.2.144/compiler/lib/mic:/opt/intel/composer_
+	xe_2013_sp1.2.144/compiler/lib/intel64:/opt/intel/mic/coi/host-linux-re
+	lease/lib:/opt/intel/mic/myo/lib:/opt/intel/composer_xe_2013_sp1.2.144/
+	mkl/lib/intel64:/opt/intel/composer_xe_2013_sp1.2.144/tbb/lib/intel64,
+	LANG=en_US.UTF-8,QTLIB=/usr/lib64/qt-3.3/lib,TERM=xterm,SHELL=/bin/bash,
+	MIC_LD_LIBRARY_PATH=/opt/intel/composer_xe_2013_sp1.2.144/compiler/lib
+	/mic:/opt/intel/mic/myo/lib:/opt/intel/composer_xe_2013_sp1.2.144/tbb/l
+	ib/mic:/opt/intel/composer_xe_2013_sp1.2.144/mkl/lib/mic:/opt/intel/mic
+	/coi/device-linux-release/lib,
+	LIBRARY_PATH=/opt/intel/composer_xe_2013_sp1.2.144/mkl/lib/intel64:/op
+	t/intel/composer_xe_2013_sp1.2.144/mkl/lib/mic,LANGUAGE=en_US.UTF-8,
+	QTINC=/usr/lib64/qt-3.3/include,G_BROKEN_FILENAMES=1,HISTSIZE=20000,
+	PBS_O_WORKDIR=/home/panellam/scratch/grad/micro_7mm/micro_degrad_1_4/r
+	elax_z,
+	PBS_O_PATH=/opt/intel/composer_xe_2013_sp1.2.144/bin/intel64:/opt/inte
+	l/composer_xe_2013_sp1.2.144/debugger/gui/intel64:/sw/utils/git/bin:/op
+	t/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/
+	bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/default/bin:/op
+	t/bin/:/home/panellam/bin:/sw/abaqus/Commands:/opt/cmake/2.8.12/bin:/sw
+	/tools/bin,
+	MANPATH=/opt/intel/composer_xe_2013_sp1.2.144/man/en_US:/sw/utils/git/
+	share/man::/opt/c3/man:/opt/sgi/share/man:/sw/pbs/default/man:/opt/cmak
+	e/2.8.12/man:/sw/tools/man:/opt/intel/mic/man,
+	_LMFILES_=/sw/Modules/modulefiles/intel-cc-14/14.0.2.144:/sw/Modules/m
+	odulefiles/intel-fc-14/14.0.2.144:/sw/Modules/modulefiles/intel-compile
+	rs-14/14.0.2.144:/sw/Modules/modulefiles/intel-cmkl-14/14.0.2.144:/sw/M
+	odules/modulefiles/intel-tools-14/14.0.2.144,HOME=/home/panellam,
+	MODULESHOME=/usr/share/Modules,
+	C3_RSH=ssh -oConnectTimeout=10 -oForwardX11=no,PBS_O_SYSTEM=Linux,
+	PBS_TZID=Europe/Paris,
+	FPATH=/opt/intel/composer_xe_2013_sp1.2.144/mkl/include,
+	MAIL=marco.panella@ensma.fr,
+	NLSPATH=/opt/intel/composer_xe_2013_sp1.2.144/debugger/intel64/en_US/%
+	N:/opt/intel/composer_xe_2013_sp1.2.144/compiler/lib/intel64/locale/en_
+	US/%N:/opt/intel/composer_xe_2013_sp1.2.144/debugger/intel64/locale/en_
+	US/%N,PBS_O_MAIL=marco.panella@ensma.fr,_=/sw/pbs/default/bin/qsub,
+	MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles:/sw/Modules
+	/modulefiles,PBS_O_SHELL=/bin/bash,
+	MKLROOT=/opt/intel/composer_xe_2013_sp1.2.144/mkl,SSH_TTY=/dev/pts/56,
+	OLDPWD=/home/panellam,HOSTNAME=thor,
+	LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=4
+	0;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;
+	41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01
+	;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=
+	01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*
+	.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*
+	.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31
+	:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35
+	:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;3
+	5:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=0
+	1;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv
+	=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.q
+	t=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.f
+	lc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xc
+	f=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.a
+	nx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.
+	mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:
+	*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36
+	::*.msg=02;32:*.dat=02;32:*.gnu=02;32:*.inp=02;33:*.cpp=02;32:*.c=02;32
+	:*.h=02;90:*.F=02;90:*.f=02;90:*.f90=00;90:*.py=01;91:*.pl=01;91:*.sta=
+	02;46:*.odb=02;31:*.vtk=02;46:*.rst=00;36:*.txt=00;35:*.tex=00;44:*.pbs
+	=01;33:*.sh=01;33,HISTCONTROL=ignoredups,SHLVL=1,
+	PWD=/home/panellam/scratch/grad/micro_7mm/micro_degrad_1_4/relax_z,
+	CVS_RSH=ssh,LOGNAME=panellam,
+	SSH_CONNECTION=82.239.88.235 49577 195.220.223.23 86,
+	INCLUDE=/opt/intel/composer_xe_2013_sp1.2.144/mkl/include,
+	PBS_O_QUEUE=default,PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 15:39 on (r1i0n5:ncpus=20)+(r1i0n2:ncpus
+	=20)+(r1i0n7:ncpus=20)+(r1i0n8:ncpus=20)+(r1i0n14:ncpus=20)+(r1i2n14:nc
+	pus=20)+(r1i3n13:ncpus=20)+(r1i4n0:ncpus=20)+(r1i4n1:ncpus=20)+(r1i4n2:
+	ncpus=20)
+    etime = Tue Jul 21 11:37:36 2020
+    run_count = 1
+    eligible_time = 04:01:43
+    Submit_arguments = run_abaqus_thor_umat.pbs
+    pset = cputype=v2_2.80GHz
+    estimated.exec_vnode = (r1i0n1:ncpus=20)+(r1i0n3:ncpus=20)+(r1i0n6:ncpus=20
+	)+(r1i1n11:ncpus=20)+(r1i1n12:ncpus=20)+(r1i2n6:ncpus=20)+(r1i2n9:ncpus
+	=20)+(r1i4n5:ncpus=20)+(r1i7n0:ncpus=20)+(r1i7n2:ncpus=20)
+    estimated.start_time = Tue Jul 21 18:07:05 2020
+    project = _pbs_project_default
+
+Job Id: 1228345.thor
+    Job_Name = BETA_E10
+    Job_Owner = panellam@thor.ice.univ-poitiers.fr
+    job_state = H
+    queue = normal
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 11:38:14 2020
+    depend = afterany:1228344.thor@thor.ice.univ-poitiers.fr
+    Error_Path = thor.ice.univ-poitiers.fr:/home/panellam/scratch/grad/micro_7m
+	m/micro_degrad_1_4/relax_z/BETA_E10.e1228345
+    Hold_Types = s
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = marco.panella@ensma.fr
+    mtime = Tue Jul 21 11:38:14 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/panellam/scratch/grad/micro_7
+	mm/micro_degrad_1_4/relax_z/BETA_E10.o1228345
+    Priority = 0
+    qtime = Tue Jul 21 11:38:14 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 200
+    Resource_List.ncpus = 200
+    Resource_List.nodect = 10
+    Resource_List.place = scatter:excl
+    Resource_List.select = 10:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 40:00:00
+    sandbox = PRIVATE
+    substate = 22
+    Variable_List = HISTTIMEFORMAT=[%F %T],
+	LOADEDMODULES=intel-cc-14/14.0.2.144:intel-fc-14/14.0.2.144:intel-comp
+	ilers-14/14.0.2.144:intel-cmkl-14/14.0.2.144:intel-tools-14/14.0.2.144,
+	INTEL_LICENSE_FILE=/opt/intel/licenses/license.lic:/opt/intel/licenses
+	,PBS_O_HOME=/home/panellam,OSCAR_HOME=/opt/oscar,
+	module=() {  eval `/usr/bin/modulecmd bash $*`; },
+	LESSOPEN=|/usr/bin/lesspipe.sh %s,PBS_O_LOGNAME=panellam,
+	SSH_CLIENT=82.239.88.235 49577 86,
+	CPATH=/opt/intel/composer_xe_2013_sp1.2.144/mkl/include,
+	PBS_O_LANG=en_US.UTF-8,USER=panellam,
+	PATH=/opt/intel/composer_xe_2013_sp1.2.144/bin/intel64:/opt/intel/comp
+	oser_xe_2013_sp1.2.144/debugger/gui/intel64:/sw/utils/git/bin:/opt/sgi/
+	sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/u
+	sr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/default/bin:/opt/bin/
+	:/home/panellam/bin:/sw/abaqus/Commands:/opt/cmake/2.8.12/bin:/sw/tools
+	/bin,QTDIR=/usr/lib64/qt-3.3,
+	LD_LIBRARY_PATH=/opt/intel/composer_xe_2013_sp1.2.144/mkl/lib/mic:/opt
+	/intel/composer_xe_2013_sp1.2.144/compiler/lib/mic:/opt/intel/composer_
+	xe_2013_sp1.2.144/compiler/lib/intel64:/opt/intel/mic/coi/host-linux-re
+	lease/lib:/opt/intel/mic/myo/lib:/opt/intel/composer_xe_2013_sp1.2.144/
+	mkl/lib/intel64:/opt/intel/composer_xe_2013_sp1.2.144/tbb/lib/intel64,
+	LANG=en_US.UTF-8,QTLIB=/usr/lib64/qt-3.3/lib,TERM=xterm,SHELL=/bin/bash,
+	MIC_LD_LIBRARY_PATH=/opt/intel/composer_xe_2013_sp1.2.144/compiler/lib
+	/mic:/opt/intel/mic/myo/lib:/opt/intel/composer_xe_2013_sp1.2.144/tbb/l
+	ib/mic:/opt/intel/composer_xe_2013_sp1.2.144/mkl/lib/mic:/opt/intel/mic
+	/coi/device-linux-release/lib,
+	LIBRARY_PATH=/opt/intel/composer_xe_2013_sp1.2.144/mkl/lib/intel64:/op
+	t/intel/composer_xe_2013_sp1.2.144/mkl/lib/mic,LANGUAGE=en_US.UTF-8,
+	QTINC=/usr/lib64/qt-3.3/include,G_BROKEN_FILENAMES=1,HISTSIZE=20000,
+	PBS_O_WORKDIR=/home/panellam/scratch/grad/micro_7mm/micro_degrad_1_4/r
+	elax_z,
+	PBS_O_PATH=/opt/intel/composer_xe_2013_sp1.2.144/bin/intel64:/opt/inte
+	l/composer_xe_2013_sp1.2.144/debugger/gui/intel64:/sw/utils/git/bin:/op
+	t/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/
+	bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/default/bin:/op
+	t/bin/:/home/panellam/bin:/sw/abaqus/Commands:/opt/cmake/2.8.12/bin:/sw
+	/tools/bin,
+	MANPATH=/opt/intel/composer_xe_2013_sp1.2.144/man/en_US:/sw/utils/git/
+	share/man::/opt/c3/man:/opt/sgi/share/man:/sw/pbs/default/man:/opt/cmak
+	e/2.8.12/man:/sw/tools/man:/opt/intel/mic/man,
+	_LMFILES_=/sw/Modules/modulefiles/intel-cc-14/14.0.2.144:/sw/Modules/m
+	odulefiles/intel-fc-14/14.0.2.144:/sw/Modules/modulefiles/intel-compile
+	rs-14/14.0.2.144:/sw/Modules/modulefiles/intel-cmkl-14/14.0.2.144:/sw/M
+	odules/modulefiles/intel-tools-14/14.0.2.144,HOME=/home/panellam,
+	MODULESHOME=/usr/share/Modules,
+	C3_RSH=ssh -oConnectTimeout=10 -oForwardX11=no,PBS_O_SYSTEM=Linux,
+	PBS_TZID=Europe/Paris,
+	FPATH=/opt/intel/composer_xe_2013_sp1.2.144/mkl/include,
+	MAIL=marco.panella@ensma.fr,
+	NLSPATH=/opt/intel/composer_xe_2013_sp1.2.144/debugger/intel64/en_US/%
+	N:/opt/intel/composer_xe_2013_sp1.2.144/compiler/lib/intel64/locale/en_
+	US/%N:/opt/intel/composer_xe_2013_sp1.2.144/debugger/intel64/locale/en_
+	US/%N,PBS_O_MAIL=marco.panella@ensma.fr,_=/sw/pbs/default/bin/qsub,
+	MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles:/sw/Modules
+	/modulefiles,PBS_O_SHELL=/bin/bash,
+	MKLROOT=/opt/intel/composer_xe_2013_sp1.2.144/mkl,SSH_TTY=/dev/pts/56,
+	OLDPWD=/home/panellam,HOSTNAME=thor,
+	LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=4
+	0;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;
+	41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01
+	;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=
+	01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*
+	.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*
+	.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31
+	:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35
+	:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;3
+	5:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=0
+	1;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv
+	=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.q
+	t=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.f
+	lc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xc
+	f=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.a
+	nx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.
+	mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:
+	*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36
+	::*.msg=02;32:*.dat=02;32:*.gnu=02;32:*.inp=02;33:*.cpp=02;32:*.c=02;32
+	:*.h=02;90:*.F=02;90:*.f=02;90:*.f90=00;90:*.py=01;91:*.pl=01;91:*.sta=
+	02;46:*.odb=02;31:*.vtk=02;46:*.rst=00;36:*.txt=00;35:*.tex=00;44:*.pbs
+	=01;33:*.sh=01;33,HISTCONTROL=ignoredups,SHLVL=1,
+	PWD=/home/panellam/scratch/grad/micro_7mm/micro_degrad_1_4/relax_z,
+	CVS_RSH=ssh,LOGNAME=panellam,
+	SSH_CONNECTION=82.239.88.235 49577 195.220.223.23 86,
+	INCLUDE=/opt/intel/composer_xe_2013_sp1.2.144/mkl/include,
+	PBS_O_QUEUE=default,PBS_O_HOST=thor.ice.univ-poitiers.fr
+    eligible_time = 00:00:00
+    Submit_arguments = run_abaqus_thor_umat_relax.pbs
+    project = _pbs_project_default
+
+Job Id: 1228316.thor
+    Job_Name = ZrN-bulk
+    Job_Owner = rmareus@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 13681
+    resources_used.cput = 1147:12:23
+    resources_used.mem = 106772992kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 2712282240kb
+    resources_used.walltime = 14:22:26
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 10:59:09 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/rmareus/scratch/HfN_110/Bulk_Z
+	rN_GGA_PBE_E/ZrN-bulk.e1228316
+    exec_host = r1i0n12/0*20+r1i3n0/0*20+r1i6n12/0*20+r1i6n1/0*20
+    exec_vnode = (r1i0n12:ncpus=20)+(r1i3n0:ncpus=20)+(r1i6n12:ncpus=20)+(r1i6n
+	1:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = rubenson.mareus@univ-poitiers.fr
+    mtime = Tue Jul 21 16:19:19 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/rmareus/scratch/HfN_110/Bulk_
+	ZrN_GGA_PBE_E/ZrN-bulk.o1228316
+    Priority = 0
+    qtime = Tue Jul 21 11:42:46 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 96:00:00
+    stime = Tue Jul 21 16:19:18 2020
+    session_id = 17508
+    sandbox = PRIVATE
+    jobdir = /home/rmareus/pbs.1228316.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/rmareus,PBS_O_LOGNAME=rmareus,
+	PBS_O_WORKDIR=/home/rmareus/scratch/HfN_110/Bulk_ZrN_GGA_PBE_E,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/rmareus/bin,
+	PBS_O_MAIL=/var/spool/mail/rmareus,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 16:19 on (r1i0n12:ncpus=20)+(r1i3n0:ncpu
+	s=20)+(r1i6n12:ncpus=20)+(r1i6n1:ncpus=20)
+    etime = Tue Jul 21 11:42:46 2020
+    run_count = 1
+    eligible_time = 04:36:32
+    Submit_arguments = run
+    pset = cputype=v2_2.80GHz
+    estimated.exec_vnode = (r1i0n12:ncpus=20)+(r1i2n12:ncpus=20)+(r1i3n0:ncpus=
+	20)+(r1i4n12:ncpus=20)
+    estimated.start_time = Tue Jul 21 16:17:08 2020
+    project = _pbs_project_default
+
+Job Id: 1228360.thor
+    Job_Name = 2_s2_6d530
+    Job_Owner = ydevaux@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 90
+    resources_used.cput = 00:06:36
+    resources_used.mem = 12420052kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 12759832kb
+    resources_used.walltime = 18:39:35
+    job_state = R
+    queue = normal
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 12:02:50 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/ydevaux/scratch/s2_65_d_530_G0
+	_01_U_0_23/baseCases/2_base/2_s2_6d530.error
+    exec_host = r1i0n10/0*20+r1i0n13/0*20+r1i2n8/0*20+r1i3n7/0*20
+    exec_vnode = (r1i0n10:ncpus=20)+(r1i0n13:ncpus=20)+(r1i2n8:ncpus=20)+(r1i3n
+	7:ncpus=20)
+    Hold_Types = n
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = yann.devaux@univ-poitiers.fr
+    mtime = Tue Jul 21 12:02:53 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/ydevaux/scratch/s2_65_d_530_G
+	0_01_U_0_23/baseCases/2_base/2_s2_6d530.out
+    Priority = 0
+    qtime = Tue Jul 21 12:02:50 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 48:00:00
+    stime = Tue Jul 21 12:02:52 2020
+    session_id = 21046
+    sandbox = PRIVATE
+    jobdir = /home/ydevaux/pbs.1228360.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/ydevaux,PBS_O_LOGNAME=ydevaux,
+	PBS_O_WORKDIR=/home/ydevaux/scratch/s2_65_d_530_G0_01_U_0_23/baseCases
+	/2_base,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/sw/codes/python/3.6.4/bin:/opt/intel/impi/5.1/compilers_an
+	d_libraries_2016.1.150/linux/bin/intel64:/opt/intel/impi/5.1/compilers_
+	and_libraries_2016.1.150/linux/mpi/intel64/bin:/opt/intel/impi/5.1/debu
+	gger_2016/gdb/intel64_mic/bin:/sw/codes/OpenFOAM-2.3.1/wmake:/sw/codes/
+	OpenFOAM-2.3.1/bin:/sw/codes/OpenFOAM-2.3.1/platforms/linux64IccDPOpt/b
+	in:/opt/intel/composer_xe_2013_sp1.2.144/bin/intel64:/opt/intel/compose
+	r_xe_2013_sp1.2.144/debugger/gui/intel64:/opt/sgi/mpt/mpt-2.10/bin:/opt
+	/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/b
+	in:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/default/bin:/opt
+	/bin/:/home/ydevaux/bin:/home/ydevaux/OpenFOAM/ydevaux-2.3.1/platforms/
+	linux64IccDPOpt/bin,PBS_O_MAIL=/var/spool/mail/ydevaux,
+	PBS_O_QUEUE=default,PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 12:02 on (r1i0n10:ncpus=20)+(r1i0n13:ncp
+	us=20)+(r1i2n8:ncpus=20)+(r1i3n7:ncpus=20)
+    etime = Tue Jul 21 12:02:50 2020
+    run_count = 1
+    eligible_time = 00:00:00
+    Submit_arguments = thor2.pbs
+    pset = cputype=v2_2.80GHz
+    project = _pbs_project_default
+
+Job Id: 1228252.thor
+    Job_Name = Na
+    Job_Owner = bdazas01@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 9134
+    resources_used.cput = 500:24:36
+    resources_used.mem = 2373008kb
+    resources_used.ncpus = 60
+    resources_used.vmem = 2723521264kb
+    resources_used.walltime = 08:21:54
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 09:05:09 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/bdazas01/scratch/130/7x4/_2/er
+	rorJob.txt
+    exec_host = r1i4n7/0*20+r1i5n7/0*20+r2i0n4/0*20
+    exec_vnode = (r1i4n7:ncpus=20)+(r1i5n7:ncpus=20)+(r2i0n4:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = baptiste.dazas@univ-poitiers.fr
+    mtime = Tue Jul 21 22:21:20 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/bdazas01/scratch/130/7x4/_2/N
+	a_PorE_92A_.txt
+    Priority = 0
+    qtime = Tue Jul 21 12:25:03 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 60
+    Resource_List.ncpus = 60
+    Resource_List.nodect = 3
+    Resource_List.place = free
+    Resource_List.select = 3:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 10:00:00
+    stime = Tue Jul 21 22:21:18 2020
+    session_id = 21067
+    Shell_Path_List = /bin/bash
+    sandbox = PRIVATE
+    jobdir = /home/bdazas01/pbs.1228252.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/bdazas01,PBS_O_LOGNAME=bdazas01,
+	PBS_O_WORKDIR=/home/bdazas01/scratch/130/7x4/_2,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/bdazas01/bin,
+	PBS_O_MAIL=/var/spool/mail/bdazas01,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 22:21 on (r1i4n7:ncpus=20)+(r1i5n7:ncpus
+	=20)+(r2i0n4:ncpus=20)
+    etime = Tue Jul 21 12:25:03 2020
+    run_count = 1
+    eligible_time = 09:56:15
+    Submit_arguments = Launcher
+    pset = cputype=v3_2.60GHz
+    estimated.exec_vnode = (r2i0n1:ncpus=20)+(r2i0n6:ncpus=20)+(r2i0n11:ncpus=2
+	0)
+    estimated.start_time = Wed Jul 22 07:56:07 2020
+    project = _pbs_project_default
+
+Job Id: 1228321.thor
+    Job_Name = ZrN-bulk
+    Job_Owner = rmareus@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 13520
+    resources_used.cput = 1119:13:20
+    resources_used.mem = 107002984kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 2712293008kb
+    resources_used.walltime = 14:01:18
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 11:00:03 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/rmareus/scratch/HfN_110/Bulk_Z
+	rN_GGA_PBE_D/ZrN-bulk.e1228321
+    exec_host = r1i2n2/0*20+r1i2n10/0*20+r1i2n11/0*20+r1i5n3/0*20
+    exec_vnode = (r1i2n2:ncpus=20)+(r1i2n10:ncpus=20)+(r1i2n11:ncpus=20)+(r1i5n
+	3:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = rubenson.mareus@univ-poitiers.fr
+    mtime = Tue Jul 21 16:41:34 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/rmareus/scratch/HfN_110/Bulk_
+	ZrN_GGA_PBE_D/ZrN-bulk.o1228321
+    Priority = 0
+    qtime = Tue Jul 21 12:52:24 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 96:00:00
+    stime = Tue Jul 21 16:41:34 2020
+    session_id = 23641
+    sandbox = PRIVATE
+    jobdir = /home/rmareus/pbs.1228321.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/rmareus,PBS_O_LOGNAME=rmareus,
+	PBS_O_WORKDIR=/home/rmareus/scratch/HfN_110/Bulk_ZrN_GGA_PBE_D,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/rmareus/bin,
+	PBS_O_MAIL=/var/spool/mail/rmareus,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 16:41 on (r1i2n2:ncpus=20)+(r1i2n10:ncpu
+	s=20)+(r1i2n11:ncpus=20)+(r1i5n3:ncpus=20)
+    etime = Tue Jul 21 12:52:24 2020
+    run_count = 1
+    eligible_time = 03:49:06
+    Submit_arguments = run
+    pset = cputype=v2_2.80GHz
+    estimated.exec_vnode = (r1i0n1:ncpus=20)+(r1i0n3:ncpus=20)+(r1i0n6:ncpus=20
+	)+(r1i1n11:ncpus=20)
+    estimated.start_time = Tue Jul 21 20:15:08 2020
+    project = _pbs_project_default
+
+Job Id: 1228340.thor
+    Job_Name = surf1-215
+    Job_Owner = jdurinck@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 13326
+    resources_used.cput = 851:37:52
+    resources_used.mem = 28928592kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 2670280488kb
+    resources_used.walltime = 10:40:24
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 11:27:10 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/jdurinck/scratch/Al2O3/GGA/SUR
+	F1-215/FIXED/CONF4/RELAX2/surf1-215.e1228340
+    exec_host = r1i4n16/0*20+r2i0n9/0*20+r2i0n16/0*20+r2i1n5/0*20
+    exec_vnode = (r1i4n16:ncpus=20)+(r2i0n9:ncpus=20)+(r2i0n16:ncpus=20)+(r2i1n
+	5:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Tue Jul 21 20:01:57 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/jdurinck/scratch/Al2O3/GGA/SU
+	RF1-215/FIXED/CONF4/RELAX2/surf1-215.o1228340
+    Priority = 0
+    qtime = Tue Jul 21 13:49:48 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 24:00:00
+    stime = Tue Jul 21 20:01:57 2020
+    session_id = 9817
+    sandbox = PRIVATE
+    jobdir = /home/jdurinck/pbs.1228340.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/jdurinck,PBS_O_LOGNAME=jdurinck,
+	PBS_O_WORKDIR=/home/jdurinck/scratch/Al2O3/GGA/SURF1-215/FIXED/CONF4/R
+	ELAX2,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/jdurinck/bin,
+	PBS_O_MAIL=/var/spool/mail/jdurinck,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 20:01 on (r1i4n16:ncpus=20)+(r2i0n9:ncpu
+	s=20)+(r2i0n16:ncpus=20)+(r2i1n5:ncpus=20)
+    etime = Tue Jul 21 13:49:48 2020
+    run_count = 1
+    eligible_time = 06:12:07
+    Submit_arguments = submit
+    pset = cputype=v3_2.60GHz
+    estimated.exec_vnode = (r1i4n16:ncpus=20)+(r2i0n9:ncpus=20)+(r2i0n16:ncpus=
+	20)+(r2i1n5:ncpus=20)
+    estimated.start_time = Wed Jul 22 01:21:53 2020
+    project = _pbs_project_default
+
+Job Id: 1228385.thor
+    Job_Name = 67
+    Job_Owner = mlambe23@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 9400
+    resources_used.cput = 477:53:35
+    resources_used.mem = 1979540kb
+    resources_used.ncpus = 60
+    resources_used.vmem = 2664059360kb
+    resources_used.walltime = 07:59:35
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 13:24:00 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/mlambe23/scratch/muhittin/67/l
+	og4
+    exec_host = r2i0n2/0*20+r2i0n8/0*20+r2i3n10/0*20
+    exec_vnode = (r2i0n2:ncpus=20)+(r2i0n8:ncpus=20)+(r2i3n10:ncpus=20)
+    Hold_Types = n
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = ma.lambert@cesame-exadebit.fr
+    mtime = Tue Jul 21 22:43:50 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/mlambe23/scratch/muhittin/67/
+	67.o1228385
+    Priority = 0
+    qtime = Tue Jul 21 15:47:37 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 60
+    Resource_List.ncpus = 60
+    Resource_List.nodect = 3
+    Resource_List.place = excl
+    Resource_List.select = 3:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 96:00:00
+    stime = Tue Jul 21 22:43:26 2020
+    session_id = 1078
+    Shell_Path_List = /bin/bash
+    sandbox = PRIVATE
+    jobdir = /home/mlambe23/pbs.1228385.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/mlambe23,PBS_O_LOGNAME=mlambe23,
+	PBS_O_WORKDIR=/home/mlambe23/scratch/muhittin/67,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/sw/codes/OpenFOAM-4.1/ThirdParty-4.1/platforms/linux64Icc/
+	gperftools-svn/bin:/sw/sgi/mpt/mpt-2.12/bin:/home/mlambe23/OpenFOAM/mla
+	mbe23-4.1/platforms/linux64IccDPInt32Opt/bin:/sw/codes/OpenFOAM-4.1/sit
+	e/4.1/platforms/linux64IccDPInt32Opt/bin:/sw/codes/OpenFOAM-4.1/OpenFOA
+	M-4.1/platforms/linux64IccDPInt32Opt/bin:/sw/codes/OpenFOAM-4.1/OpenFOA
+	M-4.1/bin:/sw/codes/OpenFOAM-4.1/OpenFOAM-4.1/wmake:/sw/compil/gcc/5.2.
+	0/bin:/opt/intel/impi/5.1/compilers_and_libraries_2016.1.150/linux/bin/
+	intel64:/opt/intel/impi/5.1/compilers_and_libraries_2016.1.150/linux/mp
+	i/intel64/bin:/opt/intel/impi/5.1/debugger_2016/gdb/intel64_mic/bin:/op
+	t/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/
+	bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/default/bin:/op
+	t/bin/:/home/mlambe23/bin,PBS_O_MAIL=/var/spool/mail/mlambe23,
+	PBS_O_QUEUE=default,PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 22:43 on (r2i0n2:ncpus=20)+(r2i0n8:ncpus
+	=20)+(r2i3n10:ncpus=20)
+    etime = Tue Jul 21 15:47:37 2020
+    run_count = 1
+    eligible_time = 06:56:11
+    Submit_arguments = run.sh
+    pset = cputype=v3_2.60GHz
+    estimated.exec_vnode = (r2i0n14:ncpus=20)+(r2i1n2:ncpus=20)+(r2i1n7:ncpus=2
+	0)
+    estimated.start_time = Wed Jul 22 13:40:55 2020
+    project = _pbs_project_default
+
+Job Id: 1228442.thor
+    Job_Name = 87_4
+    Job_Owner = bdazas01@thor.ice.univ-poitiers.fr
+    job_state = Q
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 15:53:01 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/bdazas01/scratch/69_001_Cl/_4/
+	errorJob.txt
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = baptiste.dazas@univ-poitiers.fr
+    mtime = Wed Jul 22 06:04:27 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/bdazas01/scratch/69_001_Cl/_4
+	/Na_PorE_92A_.txt
+    Priority = 0
+    qtime = Tue Jul 21 16:19:17 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 60
+    Resource_List.ncpus = 60
+    Resource_List.nodect = 3
+    Resource_List.place = free
+    Resource_List.select = 3:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 92:00:00
+    Shell_Path_List = /bin/bash
+    sandbox = PRIVATE
+    substate = 10
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/bdazas01,PBS_O_LOGNAME=bdazas01,
+	PBS_O_WORKDIR=/home/bdazas01/scratch/69_001_Cl/_4,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/bdazas01/bin,
+	PBS_O_MAIL=/var/spool/mail/bdazas01,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Not Running: Queue small job limit has been reached.
+    etime = Tue Jul 21 16:19:17 2020
+    eligible_time = 14:24:21
+    Submit_arguments = Launcher
+    estimated.exec_vnode = (r1i4n7:ncpus=20)+(r1i5n7:ncpus=20)+(r2i0n4:ncpus=20
+	)
+    estimated.start_time = Wed Jul 22 08:21:18 2020
+    project = _pbs_project_default
+
+Job Id: 1228481.thor
+    Job_Name = surf1-215
+    Job_Owner = jdurinck@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 11729
+    resources_used.cput = 838:43:42
+    resources_used.mem = 30497244kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 2673268896kb
+    resources_used.walltime = 10:30:23
+    job_state = R
+    queue = normal
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 16:48:40 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/jdurinck/scratch/Al2O3/GGA/SUR
+	F1-215/FIXED/CONF6/RELAX2/surf1-215.e1228481
+    exec_host = r1i7n3/0*20+r1i7n5/0*20+r1i1n8/0*20+r1i2n16/0*20
+    exec_vnode = (r1i7n3:ncpus=20)+(r1i7n5:ncpus=20)+(r1i1n8:ncpus=20)+(r1i2n16
+	:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Tue Jul 21 20:12:23 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/jdurinck/scratch/Al2O3/GGA/SU
+	RF1-215/FIXED/CONF6/RELAX2/surf1-215.o1228481
+    Priority = 0
+    qtime = Tue Jul 21 16:48:40 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 24:00:00
+    stime = Tue Jul 21 20:12:22 2020
+    session_id = 1420
+    sandbox = PRIVATE
+    jobdir = /home/jdurinck/pbs.1228481.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/jdurinck,PBS_O_LOGNAME=jdurinck,
+	PBS_O_WORKDIR=/home/jdurinck/scratch/Al2O3/GGA/SURF1-215/FIXED/CONF6/R
+	ELAX2,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/jdurinck/bin,
+	PBS_O_MAIL=/var/spool/mail/jdurinck,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 20:12 on (r1i7n3:ncpus=20)+(r1i7n5:ncpus
+	=20)+(r1i1n8:ncpus=20)+(r1i2n16:ncpus=20)
+    etime = Tue Jul 21 16:48:40 2020
+    run_count = 1
+    eligible_time = 00:00:00
+    Submit_arguments = submit
+    pset = cputype=v2_2.80GHz
+    estimated.exec_vnode = (r2i2n0:ncpus=20)+(r2i2n1:ncpus=20)+(r2i2n9:ncpus=20
+	)+(r2i2n4:ncpus=20)
+    estimated.start_time = Wed Jul 22 14:06:53 2020
+    project = _pbs_project_default
+
+Job Id: 1228464.thor
+    Job_Name = FFT_AZY
+    Job_Owner = naitalia@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 101
+    resources_used.cput = 13:30:00
+    resources_used.mem = 4025148kb
+    resources_used.ncpus = 20
+    resources_used.vmem = 65768804kb
+    resources_used.walltime = 13:20:46
+    job_state = R
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 16:15:41 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/naitalia/scratch/S2M/FFT_AZY.e
+	1228464
+    exec_host = r2i3n8/0*20
+    exec_vnode = (r2i3n8:ncpus=20)
+    Hold_Types = n
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = azdine.nait-ali@ensma.fr
+    mtime = Tue Jul 21 17:20:56 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/naitalia/scratch/S2M/FFT_AZY.
+	o1228464
+    Priority = 0
+    qtime = Tue Jul 21 17:20:31 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 1
+    Resource_List.ncpus = 20
+    Resource_List.nodect = 1
+    Resource_List.place = free
+    Resource_List.select = 1:ncpus=20:ompthreads=20
+    Resource_List.walltime = 20:20:00
+    stime = Tue Jul 21 17:20:55 2020
+    session_id = 6814
+    sandbox = PRIVATE
+    jobdir = /home/naitalia/pbs.1228464.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/naitalia,PBS_O_LOGNAME=naitalia,
+	PBS_O_WORKDIR=/home/naitalia/scratch/S2M,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/sw/lib/scotch/6.0.3/mpt/intel/share/man:/sw/lib/scotch/6.0
+	.3/mpt/intel/bin:/sw/lib/metis/5.1.0/intel/bin:/sw/lib/fftw/3.3.4/mpt/b
+	in:/sw/lib/vtk/7.1.0/gnu/bin:/opt/intel/composer_xe_2013_sp1.2.144/bin/
+	intel64:/opt/intel/composer_xe_2013_sp1.2.144/debugger/gui/intel64:/sw/
+	sgi/mpt/mpt-2.12/bin:/sw/utils/cmake-3.8.2/bin:/opt/sgi/sbin:/opt/sgi/b
+	in:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/
+	usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/default/bin:/opt/bin/:/home/naitalia
+	/bin:/sw/abaqus/Commands:/opt/cmake/2.8.12/bin:/sw/tools/bin:/home/nait
+	alia/fox/build_intelmpt/Release/bin,
+	PBS_O_MAIL=/var/spool/mail/naitalia,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 17:20 on (r2i3n8:ncpus=20)
+    etime = Tue Jul 21 17:20:31 2020
+    run_count = 1
+    eligible_time = 00:00:24
+    Submit_arguments = run_fftX.pbs
+    pset = cputype=v3_2.60GHz
+    project = _pbs_project_default
+
+Job Id: 1228449.thor
+    Job_Name = FFT_AZY
+    Job_Owner = naitalia@thor.ice.univ-poitiers.fr
+    job_state = Q
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 16:01:46 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/naitalia/scratch/S2M/FFT_AZY.e
+	1228449
+    Hold_Types = n
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Wed Jul 22 06:04:27 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/naitalia/scratch/S2M/FFT_AZY.
+	o1228449
+    Priority = 0
+    qtime = Tue Jul 21 17:21:06 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 1
+    Resource_List.ncpus = 20
+    Resource_List.nodect = 1
+    Resource_List.place = free
+    Resource_List.select = 1:ncpus=20:ompthreads=20
+    Resource_List.walltime = 20:00:00
+    sandbox = PRIVATE
+    substate = 10
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/naitalia,PBS_O_LOGNAME=naitalia,
+	PBS_O_WORKDIR=/home/naitalia/scratch/S2M,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/sw/lib/scotch/6.0.3/mpt/intel/share/man:/sw/lib/scotch/6.0
+	.3/mpt/intel/bin:/sw/lib/metis/5.1.0/intel/bin:/sw/lib/fftw/3.3.4/mpt/b
+	in:/sw/lib/vtk/7.1.0/gnu/bin:/opt/intel/composer_xe_2013_sp1.2.144/bin/
+	intel64:/opt/intel/composer_xe_2013_sp1.2.144/debugger/gui/intel64:/sw/
+	sgi/mpt/mpt-2.12/bin:/sw/utils/cmake-3.8.2/bin:/opt/sgi/sbin:/opt/sgi/b
+	in:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/
+	usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/default/bin:/opt/bin/:/home/naitalia
+	/bin:/sw/abaqus/Commands:/opt/cmake/2.8.12/bin:/sw/tools/bin:/home/nait
+	alia/fox/build_intelmpt/Release/bin,
+	PBS_O_MAIL=/var/spool/mail/naitalia,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Not Running: Queue small job limit has been reached.
+    etime = Tue Jul 21 17:21:06 2020
+    eligible_time = 13:22:32
+    Submit_arguments = run_fftX.pbs
+    estimated.exec_vnode = (r2i0n7:ncpus=20)
+    estimated.start_time = Wed Jul 22 15:45:18 2020
+    project = _pbs_project_default
+
+Job Id: 1228499.thor
+    Job_Name = init_2_400
+    Job_Owner = ydevaux@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 87
+    resources_used.cput = 00:06:06
+    resources_used.mem = 12420060kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 12759832kb
+    resources_used.walltime = 05:21:24
+    job_state = R
+    queue = normal
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 17:23:23 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/ydevaux/scratch/comp_JGR_s1_05
+	_d580_G0_01/baseCases/4_base/init_2_400.error
+    exec_host = r1i5n13/0*20+r1i5n15/0*20+r1i6n10/0*20+r1i6n13/0*20
+    exec_vnode = (r1i5n13:ncpus=20)+(r1i5n15:ncpus=20)+(r1i6n10:ncpus=20)+(r1i6
+	n13:ncpus=20)
+    Hold_Types = n
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = yann.devaux@univ-poitiers.fr
+    mtime = Wed Jul 22 01:20:59 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/ydevaux/scratch/comp_JGR_s1_0
+	5_d580_G0_01/baseCases/4_base/init_2_400.out
+    Priority = 0
+    qtime = Tue Jul 21 17:23:23 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 48:00:00
+    stime = Wed Jul 22 01:20:58 2020
+    session_id = 15548
+    sandbox = PRIVATE
+    jobdir = /home/ydevaux/pbs.1228499.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/ydevaux,PBS_O_LOGNAME=ydevaux,
+	PBS_O_WORKDIR=/home/ydevaux/scratch/comp_JGR_s1_05_d580_G0_01/baseCase
+	s/4_base,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/sw/codes/python/3.6.4/bin:/opt/intel/impi/5.1/compilers_an
+	d_libraries_2016.1.150/linux/bin/intel64:/opt/intel/impi/5.1/compilers_
+	and_libraries_2016.1.150/linux/mpi/intel64/bin:/opt/intel/impi/5.1/debu
+	gger_2016/gdb/intel64_mic/bin:/sw/codes/OpenFOAM-2.3.1/wmake:/sw/codes/
+	OpenFOAM-2.3.1/bin:/sw/codes/OpenFOAM-2.3.1/platforms/linux64IccDPOpt/b
+	in:/opt/intel/composer_xe_2013_sp1.2.144/bin/intel64:/opt/intel/compose
+	r_xe_2013_sp1.2.144/debugger/gui/intel64:/opt/sgi/mpt/mpt-2.10/bin:/opt
+	/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/b
+	in:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/default/bin:/opt
+	/bin/:/home/ydevaux/bin:/home/ydevaux/OpenFOAM/ydevaux-2.3.1/platforms/
+	linux64IccDPOpt/bin,PBS_O_MAIL=/var/spool/mail/ydevaux,
+	PBS_O_QUEUE=default,PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Wed Jul 22 at 01:20 on (r1i5n13:ncpus=20)+(r1i5n15:ncp
+	us=20)+(r1i6n10:ncpus=20)+(r1i6n13:ncpus=20)
+    etime = Tue Jul 21 17:23:23 2020
+    run_count = 1
+    eligible_time = 01:25:47
+    Submit_arguments = thor4.pbs
+    pset = cputype=v2_2.80GHz
+    estimated.exec_vnode = (r1i5n17:ncpus=20)+(r1i5n8:ncpus=20)+(r2i0n0:ncpus=2
+	0)+(r2i0n1:ncpus=20)
+    estimated.start_time = Thu Jul 23 10:12:29 2020
+    project = _pbs_project_default
+
+Job Id: 1228512.thor
+    Job_Name = aimd_1-1
+    Job_Owner = rlarhl01@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 1996
+    resources_used.cput = 237:47:10
+    resources_used.mem = 2177772kb
+    resources_used.ncpus = 20
+    resources_used.vmem = 11453072kb
+    resources_used.walltime = 11:54:05
+    job_state = R
+    queue = R1168029
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 18:49:33 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/rlarhl01/scratch/BiN/Calc_PBE/
+	AIMD/1-1_sg62/1000K/aimd_1-1.e1228512
+    exec_host = r1i3n1/0*20
+    exec_vnode = (r1i3n1:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Tue Jul 21 18:49:34 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/rlarhl01/scratch/BiN/Calc_PBE
+	/AIMD/1-1_sg62/1000K/aimd_1-1.o1228512
+    Priority = 0
+    qtime = Tue Jul 21 18:49:33 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 20
+    Resource_List.ncpus = 20
+    Resource_List.nodect = 1
+    Resource_List.place = free
+    Resource_List.select = 1:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 20:00:00
+    stime = Tue Jul 21 18:49:34 2020
+    session_id = 20386
+    sandbox = PRIVATE
+    jobdir = /home/rlarhl01/pbs.1228512.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/rlarhl01,PBS_O_LOGNAME=rlarhl01,
+	PBS_O_WORKDIR=/home/rlarhl01/scratch/BiN/Calc_PBE/AIMD/1-1_sg62/1000K,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/scratch/gfrapper/Busheng-test/Work:/home/gfrapper/Software
+	/VASP-2D/vasp.5.4.4/bin:/home/bwang/scratch/Source/vaspkit.0.70/bin:/sc
+	ratch/gfrapper/Busheng-test/vaspkit.0.71/bin:/home/bhuang/bin/phonopy-1
+	.9.6.2/bin:/home/bhuang/bin:/home/gfrapper/Software/vtstscripts-927:/ho
+	me/gfrapper/Software/ovito-2.5.1-x86_64/bin:/home/bwang/scratch/Source/
+	Matlab2014R/bin:/home/gfrapper/Software/USPEX944:/home/gfrapper/Softwar
+	e/vasp.5.4.4/bin:/sw/octave/gnu/3.8.2/bin:/opt/intel/2018/impi/2018.2.1
+	99/bin64:/opt/intel/composer_xe_2013_sp1.2.144/bin/intel64:/opt/intel/c
+	omposer_xe_2013_sp1.2.144/debugger/gui/intel64:/home/rlarhl01/.local/bi
+	n/:/home/rlarhl01/Softwares/Python_v27/bin/:/home/rlarhl01/:/sw/MATLAB/
+	R2015a/bin:/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local/
+	bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/d
+	efault/bin:/opt/bin/:/home/rlarhl01/bin,
+	PBS_O_MAIL=/var/spool/mail/rlarhl01,PBS_O_QUEUE=R1168029,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Tue Jul 21 at 18:49 on (r1i3n1:ncpus=20)
+    etime = Tue Jul 21 18:49:33 2020
+    reserve_ID = R1168029.thor
+    run_count = 1
+    eligible_time = 00:00:00
+    Submit_arguments = myrun
+    project = _pbs_project_default
+
+Job Id: 1228523.thor
+    Job_Name = Na
+    Job_Owner = bdazas01@thor.ice.univ-poitiers.fr
+    job_state = Q
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 20:58:01 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/bdazas01/scratch/92/_3/errorJo
+	b.txt
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = baptiste.dazas@univ-poitiers.fr
+    mtime = Wed Jul 22 06:04:27 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/bdazas01/scratch/92/_3/Na_Por
+	E_92A_.txt
+    Priority = 0
+    qtime = Tue Jul 21 20:58:01 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 60
+    Resource_List.ncpus = 60
+    Resource_List.nodect = 3
+    Resource_List.place = free
+    Resource_List.select = 3:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 50:00:00
+    Shell_Path_List = /bin/bash
+    sandbox = PRIVATE
+    substate = 10
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/bdazas01,PBS_O_LOGNAME=bdazas01,
+	PBS_O_WORKDIR=/home/bdazas01/scratch/92/_3,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/bdazas01/bin,
+	PBS_O_MAIL=/var/spool/mail/bdazas01,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Not Running: Queue small job limit has been reached.
+    etime = Tue Jul 21 20:58:01 2020
+    eligible_time = 09:45:39
+    Submit_arguments = Launcher
+    estimated.exec_vnode = (r2i1n2:ncpus=20)+(r2i1n7:ncpus=20)+(r2i2n0:ncpus=20
+	)
+    estimated.start_time = Wed Jul 22 13:40:55 2020
+    project = _pbs_project_default
+
+Job Id: 1228524.thor
+    Job_Name = Na
+    Job_Owner = bdazas01@thor.ice.univ-poitiers.fr
+    job_state = Q
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Tue Jul 21 20:58:07 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/bdazas01/scratch/92/12x7/_3/er
+	rorJob.txt
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = baptiste.dazas@univ-poitiers.fr
+    mtime = Wed Jul 22 06:04:27 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/bdazas01/scratch/92/12x7/_3/N
+	a_PorE_92A_.txt
+    Priority = 0
+    qtime = Tue Jul 21 22:14:06 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 60
+    Resource_List.ncpus = 60
+    Resource_List.nodect = 3
+    Resource_List.place = free
+    Resource_List.select = 3:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 50:00:00
+    Shell_Path_List = /bin/bash
+    sandbox = PRIVATE
+    substate = 10
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/bdazas01,PBS_O_LOGNAME=bdazas01,
+	PBS_O_WORKDIR=/home/bdazas01/scratch/92/12x7/_3,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/bdazas01/bin,
+	PBS_O_MAIL=/var/spool/mail/bdazas01,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Not Running: Queue small job limit has been reached.
+    etime = Tue Jul 21 22:14:06 2020
+    eligible_time = 08:29:33
+    Submit_arguments = Launcher
+    estimated.exec_vnode = (r2i2n1:ncpus=20)+(r2i2n9:ncpus=20)+(r2i2n4:ncpus=20
+	)
+    estimated.start_time = Wed Jul 22 15:30:47 2020
+    project = _pbs_project_default
+
+Job Id: 1228536.thor
+    Job_Name = surf1-215
+    Job_Owner = jdurinck@thor.ice.univ-poitiers.fr
+    job_state = Q
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Wed Jul 22 00:02:38 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/jdurinck/scratch/Al2O3/GGA/SUR
+	F1-215/FIXED/CONF0/RELAX3/surf1-215.e1228536
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Wed Jul 22 06:04:27 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/jdurinck/scratch/Al2O3/GGA/SU
+	RF1-215/FIXED/CONF0/RELAX3/surf1-215.o1228536
+    Priority = 0
+    qtime = Wed Jul 22 00:02:38 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 24:00:00
+    sandbox = PRIVATE
+    substate = 10
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/jdurinck,PBS_O_LOGNAME=jdurinck,
+	PBS_O_WORKDIR=/home/jdurinck/scratch/Al2O3/GGA/SURF1-215/FIXED/CONF0/R
+	ELAX3,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/jdurinck/bin,
+	PBS_O_MAIL=/var/spool/mail/jdurinck,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Not Running: Queue small job limit has been reached.
+    etime = Wed Jul 22 00:02:38 2020
+    eligible_time = 06:41:02
+    Submit_arguments = submit
+    estimated.exec_vnode = (r1i5n17:ncpus=20)+(r1i5n8:ncpus=20)+(r2i0n0:ncpus=2
+	0)+(r2i0n1:ncpus=20)
+    estimated.start_time = Wed Jul 22 07:23:15 2020
+    project = _pbs_project_default
+
+Job Id: 1228537.thor
+    Job_Name = CV2
+    Job_Owner = robinv@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 33446
+    resources_used.cput = 1293:39:29
+    resources_used.mem = 8526680kb
+    resources_used.ncpus = 200
+    resources_used.vmem = 2673241308kb
+    resources_used.walltime = 06:37:40
+    job_state = R
+    queue = medium
+    server = thor
+    Checkpoint = u
+    ctime = Wed Jul 22 00:04:40 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/robinv/scratch/LES-CV2PropaFoa
+	m/CV2-run-All6/CV2.e1228537
+    exec_host = r2i3n11/0*20+r2i3n12/0*20+r1i6n16/0*20+r1i7n16/0*20+r2i3n4/0*20
+	+r2i3n0/0*20+r2i3n5/0*20+r2i3n2/0*20+r2i3n2/1*20+r2i3n6/0*20
+    exec_vnode = (r2i3n11:ncpus=20)+(r2i3n12:ncpus=20)+(r1i6n16:ncpus=20)+(r1i7
+	n16:ncpus=20)+(r2i3n4:ncpus=20)+(r2i3n0:ncpus=20)+(r2i3n5:ncpus=20)+(r2
+	i3n2:ncpus=20)+(r2i3n2:ncpus=20)+(r2i3n6:ncpus=20)
+    Hold_Types = n
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Wed Jul 22 00:04:42 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/robinv/scratch/LES-CV2PropaFo
+	am/CV2-run-All6/CV2.out
+    Priority = 0
+    qtime = Wed Jul 22 00:04:40 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 200
+    Resource_List.ncpus = 200
+    Resource_List.nodect = 10
+    Resource_List.place = free
+    Resource_List.select = 10:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 20:00:00
+    stime = Wed Jul 22 00:04:41 2020
+    session_id = 6873
+    Shell_Path_List = /bin/bash
+    sandbox = PRIVATE
+    jobdir = /home/robinv/pbs.1228537.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/robinv,PBS_O_LOGNAME=robinv,
+	PBS_O_WORKDIR=/home/robinv/scratch/LES-CV2PropaFoam/CV2-run-All6,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/sw/utils/paraview/Paraview-5.1.0/bin:/sw/codes/OpenFOAM-4.
+	1/ThirdParty-4.1/platforms/linux64Icc/gperftools-svn/bin:/sw/sgi/mpt/mp
+	t-2.12/bin:/home/robinv/OpenFOAM/robinv-4.1/platforms/linux64IccDPInt32
+	Opt/bin:/sw/codes/OpenFOAM-4.1/site/4.1/platforms/linux64IccDPInt32Opt/
+	bin:/sw/codes/OpenFOAM-4.1/OpenFOAM-4.1/platforms/linux64IccDPInt32Opt/
+	bin:/sw/codes/OpenFOAM-4.1/OpenFOAM-4.1/bin:/sw/codes/OpenFOAM-4.1/Open
+	FOAM-4.1/wmake:/sw/compil/gcc/5.2.0/bin:/opt/intel/impi/5.1/compilers_a
+	nd_libraries_2016.1.150/linux/bin/intel64:/opt/intel/impi/5.1/compilers
+	_and_libraries_2016.1.150/linux/mpi/intel64/bin:/opt/intel/impi/5.1/deb
+	ugger_2016/gdb/intel64_mic/bin:/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt
+	-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/
+	opt/c3/bin:/sw/pbs/default/bin:/opt/bin/:/home/robinv/bin,
+	PBS_O_MAIL=/var/spool/mail/robinv,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Wed Jul 22 at 00:04 on (r2i3n11:ncpus=20)+(r2i3n12:ncp
+	us=20)+(r1i6n16:ncpus=20)+(r1i7n16:ncpus=20)+(r2i3n4:ncpus=20)+(r2i3n0:
+	ncpus=20)+(r2i3n5:ncpus=20)+(r2i3n2:ncpus=20)+(r2i3n2:ncpus=20)+(r2i3n6
+	:ncpus=20)
+    etime = Wed Jul 22 00:04:40 2020
+    run_count = 1
+    eligible_time = 00:00:00
+    Submit_arguments = Allrun.pbs
+    pset = cputype=v3_2.60GHz
+    project = _pbs_project_default
+
+Job Id: 1228544.thor
+    Job_Name = surf1-215
+    Job_Owner = jdurinck@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 13741
+    resources_used.cput = 469:03:10
+    resources_used.mem = 48593744kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 2682845208kb
+    resources_used.walltime = 05:53:45
+    job_state = R
+    queue = normal
+    server = thor
+    Checkpoint = u
+    ctime = Wed Jul 22 00:48:55 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/jdurinck/scratch/Al2O3/GGA/SUR
+	F1-19/FIXED/CONF1/surf1-215.e1228544
+    exec_host = r2i3n7/0*20+r2i3n13/0*20+r2i3n14/0*20+r2i3n15/0*20
+    exec_vnode = (r2i3n7:ncpus=20)+(r2i3n13:ncpus=20)+(r2i3n14:ncpus=20)+(r2i3n
+	15:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Wed Jul 22 00:48:57 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/jdurinck/scratch/Al2O3/GGA/SU
+	RF1-19/FIXED/CONF1/surf1-215.o1228544
+    Priority = 0
+    qtime = Wed Jul 22 00:48:55 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 24:00:00
+    stime = Wed Jul 22 00:48:56 2020
+    session_id = 8087
+    sandbox = PRIVATE
+    jobdir = /home/jdurinck/pbs.1228544.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/jdurinck,PBS_O_LOGNAME=jdurinck,
+	PBS_O_WORKDIR=/home/jdurinck/scratch/Al2O3/GGA/SURF1-19/FIXED/CONF1,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/jdurinck/bin,
+	PBS_O_MAIL=/var/spool/mail/jdurinck,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Wed Jul 22 at 00:48 on (r2i3n7:ncpus=20)+(r2i3n13:ncpu
+	s=20)+(r2i3n14:ncpus=20)+(r2i3n15:ncpus=20)
+    etime = Wed Jul 22 00:48:55 2020
+    run_count = 1
+    eligible_time = 00:00:00
+    Submit_arguments = submit
+    pset = cputype=v3_2.60GHz
+    project = _pbs_project_default
+
+Job Id: 1228545.thor
+    Job_Name = surf1-19
+    Job_Owner = jdurinck@thor.ice.univ-poitiers.fr
+    job_state = Q
+    queue = small
+    server = thor
+    Checkpoint = u
+    ctime = Wed Jul 22 00:50:43 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/jdurinck/scratch/Al2O3/GGA/SUR
+	F1-19/FIXED/CONF0/surf1-19.e1228545
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Wed Jul 22 06:04:27 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/jdurinck/scratch/Al2O3/GGA/SU
+	RF1-19/FIXED/CONF0/surf1-19.o1228545
+    Priority = 0
+    qtime = Wed Jul 22 00:50:43 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 24:00:00
+    sandbox = PRIVATE
+    substate = 10
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/jdurinck,PBS_O_LOGNAME=jdurinck,
+	PBS_O_WORKDIR=/home/jdurinck/scratch/Al2O3/GGA/SURF1-19/FIXED/CONF0,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/jdurinck/bin,
+	PBS_O_MAIL=/var/spool/mail/jdurinck,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Not Running: Queue small job limit has been reached.
+    etime = Wed Jul 22 00:50:43 2020
+    eligible_time = 05:52:56
+    Submit_arguments = submit
+    estimated.exec_vnode = (r2i0n6:ncpus=20)+(r2i0n12:ncpus=20)+(r2i0n11:ncpus=
+	20)+(r2i0n14:ncpus=20)
+    estimated.start_time = Wed Jul 22 07:56:07 2020
+    project = _pbs_project_default
+
+Job Id: 1228546.thor
+    Job_Name = surf1-19
+    Job_Owner = jdurinck@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 13784
+    resources_used.cput = 467:00:11
+    resources_used.mem = 46308612kb
+    resources_used.ncpus = 80
+    resources_used.vmem = 2677182964kb
+    resources_used.walltime = 05:52:17
+    job_state = R
+    queue = normal
+    server = thor
+    Checkpoint = u
+    ctime = Wed Jul 22 00:51:15 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/jdurinck/scratch/Al2O3/GGA/SUR
+	F1-19/FIXED/CONF2/surf1-19.e1228546
+    exec_host = r1i0n1/0*20+r1i0n3/0*20+r1i0n6/0*20+r1i0n11/0*20
+    exec_vnode = (r1i0n1:ncpus=20)+(r1i0n3:ncpus=20)+(r1i0n6:ncpus=20)+(r1i0n11
+	:ncpus=20)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Wed Jul 22 00:51:16 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/jdurinck/scratch/Al2O3/GGA/SU
+	RF1-19/FIXED/CONF2/surf1-19.o1228546
+    Priority = 0
+    qtime = Wed Jul 22 00:51:15 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 24:00:00
+    stime = Wed Jul 22 00:51:16 2020
+    session_id = 19610
+    sandbox = PRIVATE
+    jobdir = /home/jdurinck/pbs.1228546.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/jdurinck,PBS_O_LOGNAME=jdurinck,
+	PBS_O_WORKDIR=/home/jdurinck/scratch/Al2O3/GGA/SURF1-19/FIXED/CONF2,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/jdurinck/bin,
+	PBS_O_MAIL=/var/spool/mail/jdurinck,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Wed Jul 22 at 00:51 on (r1i0n1:ncpus=20)+(r1i0n3:ncpus
+	=20)+(r1i0n6:ncpus=20)+(r1i0n11:ncpus=20)
+    etime = Wed Jul 22 00:51:15 2020
+    run_count = 1
+    eligible_time = 00:00:00
+    Submit_arguments = submit
+    pset = cputype=v2_2.80GHz
+    project = _pbs_project_default
+
+Job Id: 1228547.thor
+    Job_Name = surf1-19
+    Job_Owner = jdurinck@thor.ice.univ-poitiers.fr
+    job_state = Q
+    queue = normal
+    server = thor
+    Checkpoint = u
+    ctime = Wed Jul 22 00:51:38 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/jdurinck/scratch/Al2O3/GGA/SUR
+	F1-19/FIXED/CONF3/surf1-19.e1228547
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Wed Jul 22 06:04:27 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/jdurinck/scratch/Al2O3/GGA/SU
+	RF1-19/FIXED/CONF3/surf1-19.o1228547
+    Priority = 0
+    qtime = Wed Jul 22 00:51:38 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 24:00:00
+    sandbox = PRIVATE
+    substate = 10
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/jdurinck,PBS_O_LOGNAME=jdurinck,
+	PBS_O_WORKDIR=/home/jdurinck/scratch/Al2O3/GGA/SURF1-19/FIXED/CONF3,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/jdurinck/bin,
+	PBS_O_MAIL=/var/spool/mail/jdurinck,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Not Running: User has reached queue normal running job limit.
+    etime = Wed Jul 22 00:51:38 2020
+    eligible_time = 00:00:00
+    Submit_arguments = submit
+    estimated.exec_vnode = (r1i4n16:ncpus=20)+(r2i0n9:ncpus=20)+(r2i0n10:ncpus=
+	20)+(r2i0n16:ncpus=20)
+    estimated.start_time = Wed Jul 22 20:12:22 2020
+    project = _pbs_project_default
+
+Job Id: 1228548.thor
+    Job_Name = surf1-19
+    Job_Owner = jdurinck@thor.ice.univ-poitiers.fr
+    job_state = Q
+    queue = normal
+    server = thor
+    Checkpoint = u
+    ctime = Wed Jul 22 00:51:58 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/jdurinck/scratch/Al2O3/GGA/SUR
+	F1-19/FIXED/CONF4/surf1-19.e1228548
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Wed Jul 22 06:04:27 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/jdurinck/scratch/Al2O3/GGA/SU
+	RF1-19/FIXED/CONF4/surf1-19.o1228548
+    Priority = 0
+    qtime = Wed Jul 22 00:51:58 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 80
+    Resource_List.ncpus = 80
+    Resource_List.nodect = 4
+    Resource_List.place = free
+    Resource_List.select = 4:ncpus=20:mpiprocs=20:ompthreads=1
+    Resource_List.walltime = 24:00:00
+    sandbox = PRIVATE
+    substate = 10
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/jdurinck,PBS_O_LOGNAME=jdurinck,
+	PBS_O_WORKDIR=/home/jdurinck/scratch/Al2O3/GGA/SURF1-19/FIXED/CONF4,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/opt/sgi/sbin:/opt/sgi/bin:/usr/lib64/qt-3.3/bin:/usr/local
+	/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/c3/bin:/sw/pbs/
+	default/bin:/opt/bin/:/home/jdurinck/bin,
+	PBS_O_MAIL=/var/spool/mail/jdurinck,PBS_O_QUEUE=default,
+	PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Not Running: User has reached queue normal running job limit.
+    etime = Wed Jul 22 00:51:58 2020
+    eligible_time = 00:00:00
+    Submit_arguments = submit
+    estimated.exec_vnode = (r2i1n1:ncpus=20)+(r2i1n5:ncpus=20)+(r2i1n6:ncpus=20
+	)+(r2i2n10:ncpus=20)
+    estimated.start_time = Thu Jul 23 00:48:56 2020
+    project = _pbs_project_default
+
+Job Id: 1228549.thor
+    Job_Name = tag_swr111
+    Job_Owner = bmengu01@thor.ice.univ-poitiers.fr
+    resources_used.cpupercent = 0
+    resources_used.cput = 00:00:00
+    resources_used.mem = 3544kb
+    resources_used.ncpus = 200
+    resources_used.vmem = 237700kb
+    resources_used.walltime = 05:23:00
+    job_state = R
+    queue = medium
+    server = thor
+    Checkpoint = u
+    ctime = Wed Jul 22 01:18:42 2020
+    Error_Path = thor.ice.univ-poitiers.fr:/home/bmengu01/SCHISM_WWMIII_SED3D/r
+	un_schism_wwmIII/tagus1_sw/tagus1_sw_run111/tag_swr111.e1228549
+    exec_host = r1i0n15/0*20+r1i1n4/0*20+r1i3n3/0*20+r1i1n5/0*20+r1i1n9/0*20+r1
+	i1n11/0*20+r1i2n12/0*20+r1i4n12/0*20+r1i4n13/0*20+r1i5n11/0*20
+    exec_vnode = (r1i0n15:ncpus=20)+(r1i1n4:ncpus=20)+(r1i3n3:ncpus=20)+(r1i1n5
+	:ncpus=20)+(r1i1n9:ncpus=20)+(r1i1n11:ncpus=20)+(r1i2n12:ncpus=20)+(r1i
+	4n12:ncpus=20)+(r1i4n13:ncpus=20)+(r1i5n11:ncpus=20)
+    Hold_Types = n
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = bmengu01@univ-lr.fr
+    mtime = Wed Jul 22 01:18:46 2020
+    Output_Path = thor.ice.univ-poitiers.fr:/home/bmengu01/SCHISM_WWMIII_SED3D/
+	run_schism_wwmIII/tagus1_sw/tagus1_sw_run111/tagus_sw.log
+    Priority = 0
+    qtime = Wed Jul 22 01:18:42 2020
+    Rerunable = True
+    Resource_List.mpiprocs = 200
+    Resource_List.ncpus = 200
+    Resource_List.nodect = 10
+    Resource_List.place = free
+    Resource_List.select = 10:ncpus=20:mpiprocs=20
+    Resource_List.walltime = 30:00:00
+    stime = Wed Jul 22 01:18:43 2020
+    session_id = 3126
+    sandbox = PRIVATE
+    jobdir = /home/bmengu01/pbs.1228549.thor.x8z
+    substate = 42
+    Variable_List = PBS_O_SYSTEM=Linux,PBS_O_SHELL=/bin/bash,
+	PBS_O_HOME=/home/bmengu01,PBS_O_LOGNAME=bmengu01,
+	PBS_O_WORKDIR=/home/bmengu01/SCHISM_WWMIII_SED3D/run_schism_wwmIII/tag
+	us1_sw/tagus1_sw_run111,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_PATH=/sw/tools/anaconda/5.3.1/envs/schism/bin:/sw/tools/anaconda
+	/5.3.1/condabin:/sw/tools/anaconda/5.3.1/bin:/sw/utils/git/2.24.1/bin:/
+	opt/intel/impi/5.1/impi/5.1.0.079/bin64:/opt/intel/impi/5.1/compilers_a
+	nd_libraries_2016.1.150/linux/mpi/intel64/bin:/opt/intel/impi/5.1/compi
+	lers_and_libraries_2016.1.150/linux/bin/intel64:/opt/intel/impi/5.1/com
+	pilers_and_libraries_2016.1.150/linux/mpi/intel64/bin:/opt/intel/impi/5
+	.1/debugger_2016/gdb/intel64_mic/bin:/opt/sgi/sbin:/opt/sgi/bin:/usr/li
+	b64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/
+	sbin:/opt/c3/bin:/sw/pbs/default/bin:/opt/bin:/sw/pbs/default/bin:/opt/
+	bin:/home/bmengu01/bin,PBS_O_MAIL=/var/spool/mail/bmengu01,
+	PBS_O_QUEUE=medium,PBS_O_HOST=thor.ice.univ-poitiers.fr
+    comment = Job run at Wed Jul 22 at 01:18 on (r1i0n15:ncpus=20)+(r1i1n4:ncpu
+	s=20)+(r1i3n3:ncpus=20)+(r1i1n5:ncpus=20)+(r1i1n9:ncpus=20)+(r1i1n11:nc
+	pus=20)+(r1i2n12:ncpus=20)+(r1i4n12:ncpus=20)+(r1i4n13:ncpus=20)+(r1i5n
+	11:ncpus=20)
+    etime = Wed Jul 22 01:18:42 2020
+    run_count = 1
+    eligible_time = 00:00:00
+    Submit_arguments = Submit_case
+    pset = cputype=v2_2.80GHz
+    project = _pbs_project_default
+
