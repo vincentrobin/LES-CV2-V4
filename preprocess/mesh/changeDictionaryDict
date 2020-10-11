@@ -1,0 +1,53 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      changeDictionaryDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+boundary
+{
+        wall
+        {
+           type 	wall;
+	   physicalType wall;
+        }
+        injector1
+        {
+           type 	wall;
+           physicalType patch;
+        }
+        injector2
+        {
+           type 	wall;
+           physicalType patch;
+        }
+        injector3
+        {
+           type 	wall;
+           physicalType patch;
+        }
+        injector4
+        {
+           type 	wall;
+           physicalType patch;
+        }
+	inlet
+	{
+	   type 	wall;
+           physicalType patch;
+	}
+	outlet
+	{
+	   type 	patch;
+           physicalType patch;
+	}
+}
