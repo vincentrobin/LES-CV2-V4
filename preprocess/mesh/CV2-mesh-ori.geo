@@ -5,10 +5,10 @@
 coeff=1.0;
 refin=1.0;
 
-a=0.9;//for regular lines along y- & z-axis
-b=0.9;//for regular lines along x-axis
+a=0.5;//for regular lines along y- & z-axis
+b=0.5;//for regular lines along x-axis
 
-x=0.9;//concentric divisions in radial direction for INLET/OUTLET blocks
+x=0.1;//concentric divisions in radial direction for INLET/OUTLET blocks
 y=0.9;//concentric divisions in radial direction for INJECTOR blocks
 
 //Inlet side
@@ -1043,7 +1043,6 @@ Extrude Surface {2629, {0.0,0.0,i}}{Layers{slices2i,1};Recombine;};
 Extrude Surface {2651, {0.0,0.0,i}}{Layers{slices2i,1};Recombine;};
 Extrude Surface {2673, {0.0,0.0,i}}{Layers{slices2i,1};Recombine;};
 
-
 Extrude Surface {343, {0.0,0.0,i}}{Layers{slices2i,1};Recombine;};//INJECTOR 4
 Extrude Surface {345, {0.0,0.0,i}}{Layers{slices2i,1};Recombine;};
 Extrude Surface {347, {0.0,0.0,i}}{Layers{slices2i,1};Recombine;};
@@ -1086,7 +1085,6 @@ Extrude Surface {3487, {0.0,0.0,i}}{Layers{slices2i,1};Recombine;};
 Extrude Surface {3509, {0.0,0.0,i}}{Layers{slices2i,1};Recombine;};
 Extrude Surface {3531, {0.0,0.0,i}}{Layers{slices2i,1};Recombine;};
 
-
 //Mid sections between INJECTOR blocks
 i=0.04064; 
 slices3=40.64*b;
@@ -1099,8 +1097,6 @@ Extrude Surface {1296, {i,0.0,0.0}}{Layers{slices3,1};Recombine;};
 Extrude Surface {1582, {i,0.0,0.0}}{Layers{slices3,1};Recombine;};
 Extrude Surface {1868, {i,0.0,0.0}}{Layers{slices3,1};Recombine;};
 
-
-
 //Outlet section connected to injector modules
 i=0.02032; 
 slices1=20.32*b;
@@ -1111,8 +1107,6 @@ Extrude Surface {2726, {i,0.0,0.0}}{Layers{slices1,1};Recombine;};
 Extrude Surface {3012, {i,0.0,0.0}}{Layers{slices1,1};Recombine;};
 Extrude Surface {3298, {i,0.0,0.0}}{Layers{slices1,1};Recombine;};
 Extrude Surface {3584, {i,0.0,0.0}}{Layers{slices1,1};Recombine;};
-
-
 
 //Remaining peripheral and mid sections connecting Inlet and Outlet ends
 
@@ -1228,7 +1222,7 @@ Extrude Surface {5505, {i,0.0,0.0}}{Layers{slices1,1};Recombine;};
 Extrude Surface {5527, {i,0.0,0.0}}{Layers{slices1,1};Recombine;};
 
 Extrude Surface {5549, {i,0.0,0.0}}{Layers{slices1,1};Recombine;};
-Extrude Surface {5571, {i,0.0,0.0}}{Layers{slices1,1};Recombine;};//OUTLET block
+Extrude Surface {5571, {i,0.0,0.0}}{Layers{slices1,1};Recombine;};
 Extrude Surface {5593, {i,0.0,0.0}}{Layers{slices1,1};Recombine;};
 Extrude Surface {5615, {i,0.0,0.0}}{Layers{slices1,1};Recombine;};
 Extrude Surface {5637, {i,0.0,0.0}}{Layers{slices1,1};Recombine;};
@@ -1246,7 +1240,6 @@ Extrude Surface {5857, {i,0.0,0.0}}{Layers{slices1,1};Recombine;};
 Extrude Surface {5879, {i,0.0,0.0}}{Layers{slices1,1};Recombine;};
 Extrude Surface {5901, {i,0.0,0.0}}{Layers{slices1,1};Recombine;};
 Extrude Surface {5923, {i,0.0,0.0}}{Layers{slices1,1};Recombine;};
-
 
 
 //CHAMBER TUBES
@@ -1276,14 +1269,11 @@ Extrude Surface {6253, {Outlet_Length,0.0,0.0}}{Layers{slicesx,1};Recombine;};
 Extrude Surface {6275, {Outlet_Length,0.0,0.0}}{Layers{slicesx,1};Recombine;};
 Extrude Surface {6297, {Outlet_Length,0.0,0.0}}{Layers{slicesx,1};Recombine;};
 
-
-
 //INLET & OUTLET TUBES
 
 Inlet_Length=-0.110;
 Outlet_Length=0.110;
 slicest=110*3;
-
 
 Extrude Surface {6495, {Inlet_Length,0.0,0.0}}{Layers{slicest,1};Recombine;};
 Extrude Surface {6517, {Inlet_Length,0.0,0.0}}{Layers{slicest,1};Recombine;};
@@ -1291,14 +1281,11 @@ Extrude Surface {6539, {Inlet_Length,0.0,0.0}}{Layers{slicest,1};Recombine;};
 Extrude Surface {6561, {Inlet_Length,0.0,0.0}}{Layers{slicest,1};Recombine;};
 Extrude Surface {6583, {Inlet_Length,0.0,0.0}}{Layers{slicest,1};Recombine;};
 
-
 Extrude Surface {6693, {Outlet_Length,0.0,0.0}}{Layers{slicest,1};Recombine;};
 Extrude Surface {6759, {Outlet_Length,0.0,0.0}}{Layers{slicest,1};Recombine;};
 Extrude Surface {6737, {Outlet_Length,0.0,0.0}}{Layers{slicest,1};Recombine;};
 Extrude Surface {6715, {Outlet_Length,0.0,0.0}}{Layers{slicest,1};Recombine;};
 Extrude Surface {6781, {Outlet_Length,0.0,0.0}}{Layers{slicest,1};Recombine;};
-
-
 
 Physical Surface("inlet") = {6803,6825,6847,6869,6891}; //inlet
 Physical Surface("injector1") = {263,265,267,269}; //injector ring 1
@@ -1318,8 +1305,6 @@ Physical Surface("wall") = {6790,6812,6834,6856,6407,6429,6451,6473,6394,6416,64
 5514,5052,4590,4128,3952,3826,354,6310,5848,5386,4924,4462,4018,3889,336,6376,5914,5452,4990,4528,255
 ,257,259,261,271,273,277,279,281,283,285,287,289,301,303,307,309,311,313,315,317,321,331,333,335,337,
 339,343,345,347,349,359,361,365,367,369};
-//walls including injector blocks (towards the end)
-
 
 Physical Volume(1) = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,
 37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,
@@ -1335,11 +1320,4 @@ Physical Volume(1) = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,2
 261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,
 281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,
 301,302,303,304,305,306,307};
-
-/*Hide "*";
-Show {
-Point{13,14,15,16,17,18,19,20,21,22,23,24,26,27,28,29};
-Line{21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48};
-Surface{217,219,221,223,225,227,229,231,233,235,237,239,241};
-}*/
 
