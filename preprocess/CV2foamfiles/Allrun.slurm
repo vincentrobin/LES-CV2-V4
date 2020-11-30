@@ -165,3 +165,57 @@ mkdir resu-cycle-0.280
 mv 0.28 processor* logfile postProcessing resu-cycle-0.280
 cp -r constant Allrun* system resu-cycle-0.280
 #
+#
+###################################
+#### RUN CYCLE 3 A : 0.375
+####################################
+##
+#### get New BC for phase A from preprocess directory
+cp ../preprocess/CV2cyclefiles/changeDictionaryDict-0.375 system/changeDictionaryDict
+cp ../preprocess/CV2cyclefiles/CV2inoutBC-0.375.csv system/CV2inoutBC.csv
+cp ../preprocess/CV2cyclefiles/CV2param-0.375 constant/CV2param
+#### change the final time simulation
+FILE=system/controlDict
+STARTTIME="endTime         0.375;"
+ENDTIME="endTime         0.405;"
+sed -i "s/${STARTTIME}/${ENDTIME}/" $FILE
+#### apply new BC keeping internal field
+changeDictionary
+#### Parallel calculation preparation
+decomposePar
+#### run
+mpirun -np $SLURM_NTASKS $OF_APP -parallel > logfile 2>&1
+### construction of the latest time results required for next cycle simulation
+reconstructPar -latestTime
+### save results in a specific directory and preparation for the next cycle
+mkdir resu-cycle-0.375
+mv 0.375 processor* logfile postProcessing resu-cycle-0.375
+cp -r constant Allrun* system resu-cycle-0.375
+#
+#
+###################################
+#### RUN CYCLE 2 B : 0.405
+####################################
+##
+#### get New BC for phase A from preprocess directory
+cp ../preprocess/CV2cyclefiles/changeDictionaryDict-0.405 system/changeDictionaryDict
+cp ../preprocess/CV2cyclefiles/CV2inoutBC-0.405.csv system/CV2inoutBC.csv
+cp ../preprocess/CV2cyclefiles/CV2param-0.405 constant/CV2param
+#### change the final time simulation
+FILE=system/controlDict
+STARTTIME="endTime         0.405;"
+ENDTIME="endTime         0.5;"
+sed -i "s/${STARTTIME}/${ENDTIME}/" $FILE
+#### apply new BC keeping internal field
+changeDictionary
+#### Parallel calculation preparation
+decomposePar
+#### run
+mpirun -np $SLURM_NTASKS $OF_APP -parallel > logfile 2>&1
+### construction of the latest time results required for next cycle simulation
+reconstructPar -latestTime
+### save results in a specific directory and preparation for the next cycle
+mkdir resu-cycle-0.405
+mv 0.405 processor* logfile postProcessing resu-cycle-0.405
+cp -r constant Allrun* system resu-cycle-0.405
+

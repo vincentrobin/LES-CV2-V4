@@ -55,6 +55,17 @@ alphat
         {
                 type            calculated;
         }
+
+	wall
+    	{
+        type            compressible::alphatCV2WallFunction;
+        kappa           0.41;
+        kappaT          1.0;
+        E               8.6;
+        value           uniform 0;
+    	}
+
+
         injector1
         {
         type            compressible::alphatCV2WallFunction;
